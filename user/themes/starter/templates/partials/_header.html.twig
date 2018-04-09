@@ -1,6 +1,6 @@
 {% block header %}
 <header>
-    <div>
+    <div class="top-bar">
         <a class="logo" href="{{ base_url == '' ? '/' : base_url }}">
             <img src="{{ url('theme://images/logo-pulx.svg') }}" alt="PulX">
         </a>
@@ -10,7 +10,10 @@
             {% include 'partials/_navigation.html.twig' %}
         </nav>
         {% endblock %}
-
     </div>
+
+    <nav class="projects-nav">
+        {% include 'partials/_projects-nav.html.twig' %}
+    </nav>
 </header>
 {% endblock %}

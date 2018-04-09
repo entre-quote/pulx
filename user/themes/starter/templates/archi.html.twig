@@ -1,0 +1,53 @@
+{% embed 'partials/base.html.twig' %}
+
+{% block content %}
+
+<div class="grid has-gutter-xl">
+	<div class="three-quarters">
+
+		{% if page.children.count() > 0 %}
+			<h1>{{ header.subTitle }}</h1>
+		{% else %}
+			<h1>{{ page.parent.header.subTitle }}</h1>
+		{% endif %}
+	</div>
+</div>
+
+<div class="grid has-gutter-xl">
+	<section class="three-quarters project-content">
+		{% if page.children.count() > 0 %}
+			{{ content }}
+		{% else %}
+			<h2>{{page.title}}</h2>
+			{{ content }}
+		{% endif %}
+
+	</section>
+
+	<aside class="one-quarter">
+		<div class="">
+			<nav>
+				{% if page.children.count() > 0 %}
+					{% for p in page.children %}
+						{% set current_page = (p.active) ? 'selected' : '' %}
+						<a href="{{ p.url }}" class="{{ current_page }}">
+							{{ p.title }}
+						</a>
+					{% endfor %}
+				{% else %}
+					{% for p in page.parent.children %}
+						{% set current_page = (p.active) ? 'selected' : '' %}
+						<a href="{{ p.url }}" class="{{ current_page }}">
+							{{ p.title }}
+						</a>
+					{% endfor %}
+				{% endif %}
+			</nav>
+		</div>
+	</aside>
+</div>
+
+
+{% endblock %}
+
+{% endembed %}

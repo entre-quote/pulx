@@ -1,0 +1,7 @@
+{% for post in taxonomy.findTaxonomy({'Projet en avant':'oui'}) %}
+
+    {% set current_page = (post.active or post.activeChild) ? 'selected' : '' %}
+
+    <a href="{{ post.url }}" class="{{ current_page }}">{{ post.title }}</a>
+
+{% endfor %}

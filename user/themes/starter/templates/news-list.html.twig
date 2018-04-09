@@ -1,0 +1,22 @@
+{% embed 'partials/base.html.twig' %}
+    {% block content %}
+
+        {% for p in page.collection %}
+            {% set first_image = p.media.images|first %}
+
+            <article class="news-item grid-2">
+                <div class="news-img">
+                    <h2>{{ p.title }}</h2>
+                    <img src="{{first_image.url}}" alt="">
+                </div>
+
+                <div class="news-content">
+                    {{ p.summary }}
+                </div>
+
+                <a href="" class="read-more">En savoir +</a>
+            </article>
+        {% endfor %}
+
+    {% endblock %}
+{% endembed %}

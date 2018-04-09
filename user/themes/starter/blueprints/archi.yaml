@@ -1,0 +1,23 @@
+title: Archi
+'@extends':
+    type: blog
+    context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        content:
+          type: tab
+
+          fields:
+
+            header.subTitle:
+              ordering@: 1
+              type: text
+              label: Titre détaillé
+              validate:
+                type: text

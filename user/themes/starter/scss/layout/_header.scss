@@ -1,12 +1,19 @@
 @charset "UTF-8";
 
 header {
-    padding-top: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
 }
 
 .logo {
 
     img {
-        max-width: 39rem;
+        width: 13.5rem;
     }
+}
+
+.top-bar {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 3rem;
 }

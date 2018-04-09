@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1523261513,
-    'checksum' => '9606dc517d25734b940d8a8bc44e0c60',
+    'timestamp' => 1523276856,
+    'checksum' => 'af5bc8bc48a48d4c50bd39cc1cb36bae',
     'files' => [
         'user/config' => [
             'media' => [
@@ -15,7 +15,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1523261513
+                'modified' => 1523262944
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -23,7 +23,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1513592271
+                'modified' => 1523276856
             ]
         ],
         'system/config' => [
@@ -536,7 +536,7 @@ return [
                 1 => 'Création',
                 2 => 'Performance',
                 3 => 'Actualités',
-                4 => 'À propos'
+                4 => 'Projet en avant'
             ],
             'metadata' => [
                 'description' => 'Grav is an easy to use, yet powerful, open source flat-file CMS'
@@ -601,7 +601,7 @@ return [
                 'override_locale' => false
             ],
             'home' => [
-                'alias' => '/home',
+                'alias' => '/actualites',
                 'hide_in_urls' => false
             ],
             'pages' => [
@@ -630,7 +630,7 @@ return [
                     'twig' => true
                 ],
                 'markdown' => [
-                    'extra' => false,
+                    'extra' => true,
                     'auto_line_breaks' => false,
                     'auto_url_links' => false,
                     'escape_markup' => false,
@@ -655,7 +655,7 @@ return [
                 'etag' => false,
                 'vary_accept_encoding' => false,
                 'redirect_default_route' => false,
-                'redirect_default_code' => 302,
+                'redirect_default_code' => '302',
                 'redirect_trailing_slash' => true,
                 'ignore_files' => [
                     0 => '.DS_Store'
@@ -716,7 +716,7 @@ return [
                 ]
             ],
             'errors' => [
-                'display' => true,
+                'display' => '1',
                 'log' => true
             ],
             'debugger' => [

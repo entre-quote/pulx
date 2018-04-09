@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+aside {
+
+    & > div {
+        padding: 1rem 1rem 1.5rem;
+        background-color: #fef7f6;
+    }
+
+    a {
+        display: block;
+        color: $default-color;
+
+        &:not(:last-child) {
+            margin-bottom: 1.5rem;
+        }
+
+        &:hover {
+            color: $red;
+        }
+    }
+}
