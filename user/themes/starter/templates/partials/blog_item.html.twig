@@ -1,0 +1,65 @@
+<article class="blog-item">
+
+    {% set header_image = page.header.header_image|defined(true) %}
+    {% set header_image_file = page.header.header_image_file %}
+
+
+    <div class="blog-item-content">
+        <div class="blog-item-header">
+
+            {% if header_image %}
+                {% if header_image_file %}
+                    {% set header_image_media = page.media.images[header_image_file] %}
+                {% else %}
+                    {% set header_image_media = page.media.images|first %}
+                {% endif %}
+                <div class="img-wrapper">
+                    {{ header_image_media.html }}
+                </div>
+            {% endif %}
+
+            <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+
+        </div>
+
+        <div class="list-blog-padding">
+
+            {% if page.header.continue_link is sameas(false) %}
+                <div>
+                    {{ page.content }}
+                </div>
+            {% if not truncate %}
+                {% set show_prev_next = true %}
+            {% endif %}
+            {% elseif truncate and page.summary != page.content %}
+                <div class="p-summary">
+                    {{ page.summary }}
+                </div>
+                <a href="{{ page.url }}" class="read-more">{{ 'BLOG.ITEM.CONTINUE_READING'|t }}</a>
+
+            {% elseif truncate %}
+                <div class="p-summary e-content">
+                    {{ page.content }}
+                    <a href="{{ page.url }}" class="read-more">{{ 'BLOG.ITEM.CONTINUE_READING'|t }}</a>
+                </div>
+            {% else %}
+                <div class="e-content">
+                    {{ page.content }}
+                </div>
+            {% endif %}
+
+        </div>
+
+    </div>
+
+    {% if page.taxonomy.Actualites %}
+        <div class="blog-item-tags">
+            {% for theme in page.taxonomy.Themes %}
+                <a href="/themes/{{ theme |hyphenize}}" class="p-theme">{{ theme }}</a>
+            {% endfor %}
+            {% for intervention in page.taxonomy.Interventions %}
+                <a href="{{ blog.url|rtrim('/') }}/interventions/{{ intervention |hyphenize}}"" class="p-intervention">{{ intervention }}</a>
+            {% endfor %}
+        </div>
+    {% endif %}
+</article>

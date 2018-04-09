@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/dev/Boulot/Mathieu Roy/PulX/pulx/user/plugins/admin/blueprints/config/media.yaml',
-    'modified' => 1512528472,
+    'modified' => 1523261457,
     'data' => [
         'title' => 'PLUGIN_ADMIN.MEDIA',
         'form' => [

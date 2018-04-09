@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+.blog-list {
+    
+    .blog-item-content {
+        padding: 1rem;
+        border: 1px dotted transparent;
+
+        &:hover {
+            border-color: $red;
+        }
+    }
+}

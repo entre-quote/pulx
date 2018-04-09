@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+footer {
+    margin-top: 2.5rem;
+    padding: 1rem 1.4rem 1rem 8px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    background-color: $grey;
+    border-top: 1px dashed $default-color;
+
+    a {
+        color: $default-color;
+        text-decoration: none;
+
+        &:hover {
+            color: $red;
+            text-decoration: underline;
+        }
+    }
+}

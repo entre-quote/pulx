@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/dev/Boulot/Mathieu Roy/PulX/pulx/user/plugins/markdown-notices/markdown-notices.yaml',
-    'modified' => 1512528472,
+    'modified' => 1523261463,
     'data' => [
         'enabled' => true,
         'built_in_css' => true,

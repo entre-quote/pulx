@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1513262137,
-    'checksum' => 'eeda59e26dc7970502b887deceba8f9a',
+    'timestamp' => 1523261513,
+    'checksum' => '9606dc517d25734b940d8a8bc44e0c60',
     'files' => [
         'user/config' => [
             'media' => [
@@ -15,7 +15,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1513262137
+                'modified' => 1523261513
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -23,31 +23,35 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1512528472
+                'modified' => 1513592271
             ]
         ],
         'system/config' => [
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1512528472
+                'modified' => 1523260862
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1512528472
+                'modified' => 1523260862
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1512528472
+                'modified' => 1523260862
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1512528472
+                'modified' => 1523260862
             ]
         ],
         'user/plugins' => [
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/admin.yaml',
-                'modified' => 1512528472
+                'modified' => 1523261457
+            ],
+            'plugins/devtools' => [
+                'file' => 'user/plugins/devtools/devtools.yaml',
+                'modified' => 1523261448
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
@@ -55,19 +59,19 @@ return [
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
-                'modified' => 1512528472
+                'modified' => 1523261450
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1512528472
+                'modified' => 1523261453
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
-                'modified' => 1512528474
+                'modified' => 1523261466
             ],
             'plugins/markdown-notices' => [
                 'file' => 'user/plugins/markdown-notices/markdown-notices.yaml',
-                'modified' => 1512528472
+                'modified' => 1523261463
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/problems.yaml',
@@ -111,10 +115,11 @@ return [
                     'delete_page' => true
                 ],
                 'edit_mode' => 'normal',
-                'frontend_pages_target' => '_blank',
+                'frontend_preview_target' => 'inline',
                 'show_github_msg' => true,
                 'pages_list_display_field' => 'title',
-                'google_fonts' => true,
+                'google_fonts' => false,
+                'admin_icons' => 'line-awesome',
                 'enable_auto_updates_check' => true,
                 'notifications' => [
                     'feed' => true,
@@ -134,6 +139,9 @@ return [
                         'visitors' => 20
                     ]
                 ]
+            ],
+            'devtools' => [
+                'enabled' => true
             ],
             'email' => [
                 'enabled' => true,
@@ -166,7 +174,10 @@ return [
             'form' => [
                 'enabled' => true,
                 'built_in_css' => true,
+                'inline_css' => true,
                 'refresh_prevention' => false,
+                'client_side_validation' => true,
+                'inline_errors' => false,
                 'files' => [
                     'multiple' => false,
                     'limit' => 10,
@@ -204,7 +215,7 @@ return [
                 'max_login_count' => 0,
                 'max_login_interval' => 2,
                 'user_registration' => [
-                    'enabled' => true,
+                    'enabled' => false,
                     'fields' => [
                         0 => 'username',
                         1 => 'password',
@@ -225,7 +236,7 @@ return [
                     'options' => [
                         'validate_password1_and_password2' => true,
                         'set_user_disabled' => false,
-                        'login_after_registration' => true,
+                        'login_after_registration' => false,
                         'send_activation_email' => false,
                         'send_notification_email' => false,
                         'send_welcome_email' => false
@@ -522,7 +533,10 @@ return [
             ],
             'taxonomies' => [
                 0 => 'Transmission',
-                1 => 'Création'
+                1 => 'Création',
+                2 => 'Performance',
+                3 => 'Actualités',
+                4 => 'À propos'
             ],
             'metadata' => [
                 'description' => 'Grav is an easy to use, yet powerful, open source flat-file CMS'
@@ -591,7 +605,7 @@ return [
                 'hide_in_urls' => false
             ],
             'pages' => [
-                'theme' => 'antimatter',
+                'theme' => 'starter',
                 'order' => [
                     'by' => 'default',
                     'dir' => 'asc'
@@ -727,10 +741,12 @@ return [
                 'allowed_fallback_types' => [
                     
                 ],
-                'auto_metadata_exif' => false
+                'auto_metadata_exif' => false,
+                'upload_limit' => 33554432
             ],
             'session' => [
                 'enabled' => true,
+                'initialize' => true,
                 'timeout' => 1800,
                 'name' => 'grav-site',
                 'secure' => false,
