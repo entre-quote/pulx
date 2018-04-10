@@ -6,7 +6,7 @@ Comment everything not useful for the current project
 /* ==Grillade : Simple Grid System    */
 /* ---------------------------------- */
 /* Doc : http://grillade.knacss.com */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:600,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
 @media (min-width: 576px) {
   [class*=" grid-"],
   [class^="grid-"] {
@@ -662,6 +662,9 @@ blockquote {
   text-align: center; }
 
 /* --- Pages --- */
+.project-wrapper {
+  align-items: flex-start; }
+
 .project-content {
   padding: 1rem;
   background-color: #f2f2f2; }
@@ -669,20 +672,29 @@ blockquote {
     margin-bottom: 1rem;
     font-size: 2rem;
     text-transform: uppercase; }
+  .project-content h3 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase; }
   .project-content p {
     margin-top: 0; }
   .project-content img {
     margin-bottom: 3rem; }
 
+.more-infos {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  border-top: 1px dotted #4d4d4d; }
+  .more-infos h3 {
+    margin-bottom: 2rem; }
+
 .archi .read-more:not(:last-child) {
   margin-bottom: 3rem; }
 .archi h2 {
   color: #e44444; }
-.archi h3 {
-  margin-bottom: 1.5rem;
-  font-size: 2rem;
-  font-weight: 600;
-  text-transform: uppercase; }
 .archi a.selected {
   color: #e44444; }
 

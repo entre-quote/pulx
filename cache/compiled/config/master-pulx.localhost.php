@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1523276856,
-    'checksum' => 'af5bc8bc48a48d4c50bd39cc1cb36bae',
+    'timestamp' => 1523290339,
+    'checksum' => '2aef537352fb8a19b901ec9316d06d58',
     'files' => [
         'user/config' => [
             'media' => [
@@ -23,7 +23,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1523276856
+                'modified' => 1523289089
             ]
         ],
         'system/config' => [
@@ -60,6 +60,10 @@ return [
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
                 'modified' => 1523261450
+            ],
+            'plugins/featherlight' => [
+                'file' => 'user/plugins/featherlight/featherlight.yaml',
+                'modified' => 1523290338
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
@@ -170,6 +174,18 @@ return [
                 'routes' => [
                     404 => '/error'
                 ]
+            ],
+            'featherlight' => [
+                'enabled' => true,
+                'active' => true,
+                'gallery' => false,
+                'requirejs' => false,
+                'openSpeed' => 250,
+                'closeSpeed' => 250,
+                'closeOnClick' => 'background',
+                'closeOnEsc' => true,
+                'root' => 'body',
+                'initTemplate' => 'plugin://featherlight/js/featherlight.init.js'
             ],
             'form' => [
                 'enabled' => true,

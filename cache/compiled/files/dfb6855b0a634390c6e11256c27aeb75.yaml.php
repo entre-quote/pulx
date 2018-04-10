@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/dev/Boulot/Mathieu Roy/PulX/pulx/user/config/system.yaml',
-    'modified' => 1523267644,
+    'modified' => 1523289089,
     'data' => [
         'absolute_urls' => false,
         'param_sep' => ':',
@@ -50,7 +50,7 @@ return [
                 'twig' => true
             ],
             'markdown' => [
-                'extra' => false,
+                'extra' => true,
                 'auto_line_breaks' => false,
                 'auto_url_links' => false,
                 'escape_markup' => false,

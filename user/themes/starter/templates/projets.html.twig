@@ -1,0 +1,63 @@
+{% embed 'partials/base.html.twig' %}
+
+{% block content %}
+
+<div class="grid has-gutter-xl">
+	<div class="three-quarters">
+		<h1>{{page.title}}</h1>
+	</div>
+</div>
+
+<div class="project-wrapper grid has-gutter-xl">
+	<section class="three-quarters project-content">
+		{% if page.children.count() > 0 %}
+		{{ content }}
+		{% else %}
+		<h2>{{page.header.subTitle}}</h2>
+		{{ content }}
+		{% endif %}
+
+	</section>
+
+	<aside class="one-quarter">
+		<div>
+			<nav>
+				{% if page.children.count() > 0 %}
+				{% for p in page.children %}
+				{% set current_page = (p.active) ? 'selected' : '' %}
+				<a href="{{ p.url }}" class="{{ current_page }}">
+					{{ p.title }}
+				</a>
+				{% endfor %}
+				{% else %}
+				{% for p in page.parent.children %}
+				{% set current_page = (p.active) ? 'selected' : '' %}
+				<a href="{{ p.url }}" class="{{ current_page }}">
+					{{ p.title }}
+				</a>
+				{% endfor %}
+				{% endif %}
+			</nav>
+
+			{% if page.header.transmission != ""%}
+			<div class="more-infos">
+				<h3>Transmission</h3>
+				{{page.header.transmission}}
+			</div>
+			{% endif %}
+
+			{% if page.header.creation != ""%}
+			<div class="more-infos">
+				<h3>Création</h3>
+				{{page.header.creation}}
+			</div>
+			{% endif %}
+
+		</div>
+	</aside>
+</div>
+
+
+{% endblock %}
+
+{% endembed %}
