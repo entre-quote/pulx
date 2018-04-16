@@ -1,0 +1,30 @@
+title: Video
+'@extends':
+    type: blog
+    context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        content:
+          type: tab
+
+          fields:
+
+            header.videoUrl:
+              ordering@: 2
+              type: text
+              label: Url de la vidéo
+              validate:
+                type: text
+
+            header.videoTitle:
+              ordering@: 3
+              type: text
+              label: Nom de la vidéo
+              validate:
+                type: text

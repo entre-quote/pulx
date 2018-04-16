@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+div[data-featherlight-gallery] {
+    .gallery-content {
+        & + .gallery-content {
+            display: none;
+        }
+    }
+}
+
+.gallery {
+    font-size: 1.4rem;
+
+    a {
+        text-transform: uppercase;
+    }
+}
+
+.lightbox {
+    display: none;
+}
+
+.video-title {
+    display: block;
+}

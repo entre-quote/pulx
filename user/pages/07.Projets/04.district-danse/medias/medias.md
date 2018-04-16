@@ -1,5 +1,8 @@
 ---
 title: Médias
+process:
+    markdown: true
+    twig: true
 content:
     items: '@self.children'
     order:
@@ -7,4 +10,3 @@ content:
         dir: desc
 ---
 
-Presse

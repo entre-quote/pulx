@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/dev/Boulot/Mathieu Roy/PulX/pulx/user/plugins/login/languages/en.yaml',
-    'modified' => 1523261466,
+    'modified' => 1523868688,
     'data' => [
         'PLUGIN_LOGIN' => [
             'USERNAME' => 'Username',
@@ -46,7 +46,7 @@ return [
             'USER_NEEDS_EMAIL_FIELD' => 'The user needs an email field',
             'EMAIL_SENDING_FAILURE' => 'An error occurred while sending the email',
             'ACTIVATION_EMAIL_SUBJECT' => 'Activate your account on %s',
-            'ACTIVATION_EMAIL_BODY' => '<h1>%Account Activation</h1><p>Hi %1$s, </p><p>Your account has been successfully created on <b>%3$s</b>, but you cannot login until it is activated.</p><p><br/><a href="%2$s" class="btn-primary">Activate Your Account Now</a><br/><br/></p><p>Alternatively, copy the following URL into your browser\'s address bar:</p><p class="word-break"><a href="%2$s">%2$s</a></p><p><br/>Kind regards,<br/><br/>%4$s</p>',
+            'ACTIVATION_EMAIL_BODY' => '<h1>Account Activation</h1><p>Hi %1$s, </p><p>Your account has been successfully created on <b>%3$s</b>, but you cannot login until it is activated.</p><p><br/><a href="%2$s" class="btn-primary">Activate Your Account Now</a><br/><br/></p><p>Alternatively, copy the following URL into your browser\'s address bar:</p><p class="word-break"><a href="%2$s">%2$s</a></p><p><br/>Kind regards,<br/><br/>%4$s</p>',
             'ACTIVATION_NOTICE_MSG' => 'Hi %s, your account is created, please check your email to fully activate it',
             'WELCOME_EMAIL_SUBJECT' => 'Welcome to %s',
             'WELCOME_EMAIL_BODY' => '<h1>Account Created</h1><p>Hi %1$s, </p><p>Your account has been successfully created on <b>%3$s</b>.</p><p><br/><a href="%2$s" class="btn-primary">Login Now</a><br/><br/></p><p>Alternatively, copy the following URL into your browser\'s address bar:</p><p class="word-break"><a href="%2$s">%2$s</a></p><p><br/>Kind regards,<br/><br/>%4$s</p>',
@@ -80,6 +80,8 @@ return [
             'REGISTRATION_FIELD_KEY' => 'Field name',
             'REDIRECT_AFTER_LOGIN' => 'Redirect after login',
             'REDIRECT_AFTER_LOGIN_HELP' => 'Custom route to redirect after login',
+            'REDIRECT_AFTER_LOGOUT' => 'Redirect after logout',
+            'REDIRECT_AFTER_LOGOUT_HELP' => 'Custom route to redirect after logout',
             'REDIRECT_AFTER_REGISTRATION' => 'Redirect after registration',
             'REDIRECT_AFTER_REGISTRATION_HELP' => 'Custom route to redirect after the registration',
             'OPTIONS' => 'Options',

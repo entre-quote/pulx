@@ -661,6 +661,20 @@ blockquote {
   color: #eb8579;
   text-align: center; }
 
+div[data-featherlight-gallery] .gallery-content + .gallery-content {
+  display: none; }
+
+.gallery {
+  font-size: 1.4rem; }
+  .gallery a {
+    text-transform: uppercase; }
+
+.lightbox {
+  display: none; }
+
+.video-title {
+  display: block; }
+
 /* --- Pages --- */
 .project-wrapper {
   align-items: flex-start; }

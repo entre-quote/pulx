@@ -1,25 +1,25 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1523290339,
-    'checksum' => '34f79c862c46baba511b236f036a4500',
+    'timestamp' => 1523873093,
+    'checksum' => '9ab3d4026e4e5ada9ccd937659db7d73',
     'files' => [
         'system/blueprints/config' => [
             'media' => [
                 'file' => 'system/blueprints/config/media.yaml',
-                'modified' => 1523260862
+                'modified' => 1523625921
             ],
             'site' => [
                 'file' => 'system/blueprints/config/site.yaml',
-                'modified' => 1523260862
+                'modified' => 1523625921
             ],
             'streams' => [
                 'file' => 'system/blueprints/config/streams.yaml',
-                'modified' => 1523260862
+                'modified' => 1523625921
             ],
             'system' => [
                 'file' => 'system/blueprints/config/system.yaml',
-                'modified' => 1523260862
+                'modified' => 1523625921
             ]
         ],
         'user/plugins' => [
@@ -45,15 +45,19 @@ return [
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/blueprints.yaml',
-                'modified' => 1523261453
+                'modified' => 1523868692
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/blueprints.yaml',
-                'modified' => 1523261465
+                'modified' => 1523868688
             ],
             'plugins/markdown-notices' => [
                 'file' => 'user/plugins/markdown-notices/blueprints.yaml',
                 'modified' => 1523261463
+            ],
+            'plugins/mediaembed' => [
+                'file' => 'user/plugins/mediaembed/blueprints.yaml',
+                'modified' => 1523437665
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/blueprints.yaml',
@@ -3096,6 +3100,12 @@ return [
                 'name' => 'plugins.login.redirect_after_login',
                 'validation' => 'loose'
             ],
+            'plugins.login.redirect_after_logout' => [
+                'type' => 'text',
+                'label' => 'PLUGIN_LOGIN.REDIRECT_AFTER_LOGOUT',
+                'name' => 'plugins.login.redirect_after_logout',
+                'validation' => 'loose'
+            ],
             'plugins.login.route_forgot' => [
                 'type' => 'text',
                 'size' => 'medium',
@@ -3510,6 +3520,364 @@ return [
                 'name' => 'plugins.markdown-notices.level_classes',
                 'validation' => 'strict'
             ],
+            'plugins.mediaembed' => [
+                'type' => '_root',
+                'form_field' => false,
+                'form' => [
+                    'validation' => 'strict'
+                ]
+            ],
+            'plugins.mediaembed.enabled' => [
+                'type' => 'toggle',
+                'label' => 'Plugin Status',
+                'highlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'Enabled',
+                    0 => 'Disabled'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.mediaembed.enabled',
+                'validation' => 'strict'
+            ],
+            'plugins.mediaembed.built_in_css' => [
+                'type' => 'toggle',
+                'label' => 'Use built in CSS',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.mediaembed.built_in_css',
+                'validation' => 'strict'
+            ],
+            'plugins.mediaembed.built_in_js' => [
+                'type' => 'toggle',
+                'label' => 'Use built in JS',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.mediaembed.built_in_js',
+                'validation' => 'strict'
+            ],
+            'plugins.mediaembed.global' => [
+                'type' => 'section',
+                'underline' => 1,
+                'name' => 'plugins.mediaembed.global',
+                'validation' => 'strict'
+            ],
+            'plugins.mediaembed.media' => [
+                'type' => 'section',
+                'name' => 'plugins.mediaembed.media',
+                'validation' => 'strict'
+            ],
+            'plugins.mediaembed.media.width' => [
+                'type' => 'text',
+                'size' => 'x-small',
+                'label' => 'Default media width',
+                'default' => 640,
+                'validate' => [
+                    'type' => 'int',
+                    'min' => 0
+                ],
+                'name' => 'plugins.mediaembed.media.width',
+                'validation' => 'strict'
+            ],
+            'plugins.mediaembed.media.height' => [
+                'type' => 'text',
+                'size' => 'x-small',
+                'label' => 'Default media height including controls',
+                'default' => 390,
+                'validate' => [
+                    'type' => 'int',
+                    'min' => 0
+                ],
+                'name' => 'plugins.mediaembed.media.height',
+                'validation' => 'strict'
+            ],
+            'plugins.mediaembed.media.adjust' => [
+                'type' => 'select',
+                'size' => 'medium',
+                'label' => 'Adjust media size',
+                'default' => 1,
+                'options' => [
+                    1 => 'True - Adjust media size',
+                    0 => 'False - Keep default dimensions'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.mediaembed.media.adjust',
+                'validation' => 'strict'
+            ],
+            'plugins.mediaembed.media.preview' => [
+                'type' => 'toggle',
+                'label' => 'Show preview',
+                'default' => 1,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.mediaembed.media.preview',
+                'validation' => 'strict'
+            ],
+            'plugins.mediaembed.media.responsive' => [
+                'type' => 'toggle',
+                'label' => 'Responsive media',
+                'default' => 1,
+                'options' => [
+                    1 => 'Enabled',
+                    0 => 'Disabled'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.mediaembed.media.responsive',
+                'validation' => 'strict'
+            ],
+            'plugins.mediaembed.media.protocol' => [
+                'type' => 'text',
+                'size' => 'medium',
+                'label' => 'Protocol',
+                'default' => 'http://',
+                'name' => 'plugins.mediaembed.media.protocol',
+                'validation' => 'strict'
+            ],
+            'plugins.mediaembed.services' => [
+                'type' => 'section',
+                'name' => 'plugins.mediaembed.services',
+                'validation' => 'strict'
+            ],
+            'plugins.mediaembed.services.SoundCloud' => [
+                'type' => '_parent',
+                'name' => 'plugins.mediaembed.services.SoundCloud',
+                'form_field' => false
+            ],
+            'plugins.mediaembed.services.SoundCloud.enabled' => [
+                'type' => 'toggle',
+                'label' => 'Embed SoundCloud',
+                'default' => 1,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.mediaembed.services.SoundCloud.enabled',
+                'validation' => 'strict'
+            ],
+            'plugins.mediaembed.services.Spotify' => [
+                'type' => '_parent',
+                'name' => 'plugins.mediaembed.services.Spotify',
+                'form_field' => false
+            ],
+            'plugins.mediaembed.services.Spotify.enabled' => [
+                'type' => 'toggle',
+                'label' => 'Embed Spotify',
+                'default' => 1,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.mediaembed.services.Spotify.enabled',
+                'validation' => 'strict'
+            ],
+            'plugins.mediaembed.services.Flickr' => [
+                'type' => '_parent',
+                'name' => 'plugins.mediaembed.services.Flickr',
+                'form_field' => false
+            ],
+            'plugins.mediaembed.services.Flickr.enabled' => [
+                'type' => 'toggle',
+                'label' => 'Embed Flickr',
+                'default' => 1,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.mediaembed.services.Flickr.enabled',
+                'validation' => 'strict'
+            ],
+            'plugins.mediaembed.services.Imgur' => [
+                'type' => '_parent',
+                'name' => 'plugins.mediaembed.services.Imgur',
+                'form_field' => false
+            ],
+            'plugins.mediaembed.services.Imgur.enabled' => [
+                'type' => 'toggle',
+                'label' => 'Embed Imgur',
+                'default' => 1,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.mediaembed.services.Imgur.enabled',
+                'validation' => 'strict'
+            ],
+            'plugins.mediaembed.services.Instagram' => [
+                'type' => '_parent',
+                'name' => 'plugins.mediaembed.services.Instagram',
+                'form_field' => false
+            ],
+            'plugins.mediaembed.services.Instagram.enabled' => [
+                'type' => 'toggle',
+                'label' => 'Embed Instagram',
+                'default' => 1,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.mediaembed.services.Instagram.enabled',
+                'validation' => 'strict'
+            ],
+            'plugins.mediaembed.services.Dailymotion' => [
+                'type' => '_parent',
+                'name' => 'plugins.mediaembed.services.Dailymotion',
+                'form_field' => false
+            ],
+            'plugins.mediaembed.services.Dailymotion.enabled' => [
+                'type' => 'toggle',
+                'label' => 'Embed Dailymotion',
+                'default' => 1,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.mediaembed.services.Dailymotion.enabled',
+                'validation' => 'strict'
+            ],
+            'plugins.mediaembed.services.YouTube' => [
+                'type' => '_parent',
+                'name' => 'plugins.mediaembed.services.YouTube',
+                'form_field' => false
+            ],
+            'plugins.mediaembed.services.YouTube.enabled' => [
+                'type' => 'toggle',
+                'label' => 'Embed YouTube',
+                'default' => 1,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.mediaembed.services.YouTube.enabled',
+                'validation' => 'strict'
+            ],
+            'plugins.mediaembed.services.Vimeo' => [
+                'type' => '_parent',
+                'name' => 'plugins.mediaembed.services.Vimeo',
+                'form_field' => false
+            ],
+            'plugins.mediaembed.services.Vimeo.enabled' => [
+                'type' => 'toggle',
+                'label' => 'Embed Vimeo',
+                'default' => 1,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.mediaembed.services.Vimeo.enabled',
+                'validation' => 'strict'
+            ],
+            'plugins.mediaembed.services.GitHub' => [
+                'type' => '_parent',
+                'name' => 'plugins.mediaembed.services.GitHub',
+                'form_field' => false
+            ],
+            'plugins.mediaembed.services.GitHub.enabled' => [
+                'type' => 'toggle',
+                'label' => 'Embed GitHub',
+                'default' => 1,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.mediaembed.services.GitHub.enabled',
+                'validation' => 'strict'
+            ],
+            'plugins.mediaembed.services.Slides' => [
+                'type' => '_parent',
+                'name' => 'plugins.mediaembed.services.Slides',
+                'form_field' => false
+            ],
+            'plugins.mediaembed.services.Slides.enabled' => [
+                'type' => 'toggle',
+                'label' => 'Embed Slides',
+                'default' => 1,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.mediaembed.services.Slides.enabled',
+                'validation' => 'strict'
+            ],
+            'plugins.mediaembed.services.Twitter' => [
+                'type' => '_parent',
+                'name' => 'plugins.mediaembed.services.Twitter',
+                'form_field' => false
+            ],
+            'plugins.mediaembed.services.Twitter.enabled' => [
+                'type' => 'toggle',
+                'label' => 'Embed Twitter',
+                'default' => 1,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.mediaembed.services.Twitter.enabled',
+                'validation' => 'strict'
+            ],
+            'plugins.mediaembed.default' => [
+                'type' => 'section',
+                'underline' => 1,
+                'name' => 'plugins.mediaembed.default',
+                'validation' => 'strict'
+            ],
             'plugins.problems' => [
                 'type' => '_root',
                 'form_field' => false,
@@ -3893,6 +4261,7 @@ return [
                     'built_in_css' => 'plugins.login.built_in_css',
                     'route' => 'plugins.login.route',
                     'redirect_after_login' => 'plugins.login.redirect_after_login',
+                    'redirect_after_logout' => 'plugins.login.redirect_after_logout',
                     'route_forgot' => 'plugins.login.route_forgot',
                     'route_reset' => 'plugins.login.route_reset',
                     'route_profile' => 'plugins.login.route_profile',
@@ -3940,6 +4309,56 @@ return [
                     'enabled' => 'plugins.markdown-notices.enabled',
                     'built_in_css' => 'plugins.markdown-notices.built_in_css',
                     'level_classes' => 'plugins.markdown-notices.level_classes'
+                ],
+                'mediaembed' => [
+                    'global' => 'plugins.mediaembed.global',
+                    'enabled' => 'plugins.mediaembed.enabled',
+                    'built_in_css' => 'plugins.mediaembed.built_in_css',
+                    'built_in_js' => 'plugins.mediaembed.built_in_js',
+                    'default' => 'plugins.mediaembed.default',
+                    'media' => [
+                        'width' => 'plugins.mediaembed.media.width',
+                        'height' => 'plugins.mediaembed.media.height',
+                        'adjust' => 'plugins.mediaembed.media.adjust',
+                        'preview' => 'plugins.mediaembed.media.preview',
+                        'responsive' => 'plugins.mediaembed.media.responsive',
+                        'protocol' => 'plugins.mediaembed.media.protocol'
+                    ],
+                    'services' => [
+                        'SoundCloud' => [
+                            'enabled' => 'plugins.mediaembed.services.SoundCloud.enabled'
+                        ],
+                        'Spotify' => [
+                            'enabled' => 'plugins.mediaembed.services.Spotify.enabled'
+                        ],
+                        'Flickr' => [
+                            'enabled' => 'plugins.mediaembed.services.Flickr.enabled'
+                        ],
+                        'Imgur' => [
+                            'enabled' => 'plugins.mediaembed.services.Imgur.enabled'
+                        ],
+                        'Instagram' => [
+                            'enabled' => 'plugins.mediaembed.services.Instagram.enabled'
+                        ],
+                        'Dailymotion' => [
+                            'enabled' => 'plugins.mediaembed.services.Dailymotion.enabled'
+                        ],
+                        'YouTube' => [
+                            'enabled' => 'plugins.mediaembed.services.YouTube.enabled'
+                        ],
+                        'Vimeo' => [
+                            'enabled' => 'plugins.mediaembed.services.Vimeo.enabled'
+                        ],
+                        'GitHub' => [
+                            'enabled' => 'plugins.mediaembed.services.GitHub.enabled'
+                        ],
+                        'Slides' => [
+                            'enabled' => 'plugins.mediaembed.services.Slides.enabled'
+                        ],
+                        'Twitter' => [
+                            'enabled' => 'plugins.mediaembed.services.Twitter.enabled'
+                        ]
+                    ]
                 ],
                 'problems' => [
                     'enabled' => 'plugins.problems.enabled',

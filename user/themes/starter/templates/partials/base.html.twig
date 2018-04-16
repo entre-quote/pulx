@@ -13,6 +13,7 @@
     <link rel="icon" type="image/png" href="{{ url('theme://images/logo.png') }}" />
     <link rel="canonical" href="{{ page.url(true, true) }}" />
 
+
     {% block stylesheets %}
         {% do assets.addCss('theme://css/styles.css', 98) %}
     {% endblock %}
@@ -21,6 +22,8 @@
     {% block javascripts %}
         {% do assets.addJs('jquery', 100) %}
     {% endblock %}
+
+    {% do assets.addJs('theme://js/init.js', 99) %}
     {{ assets.js() }}
 
 {% endblock head%}

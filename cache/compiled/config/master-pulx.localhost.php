@@ -1,13 +1,21 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1523290339,
-    'checksum' => '2aef537352fb8a19b901ec9316d06d58',
+    'timestamp' => 1523873093,
+    'checksum' => 'bdf9c5419138d322a6d6f1d70a991bdb',
     'files' => [
         'user/config' => [
             'media' => [
                 'file' => 'user/config/media.yaml',
                 'modified' => 1513262033
+            ],
+            'plugins/featherlight' => [
+                'file' => 'user/config/plugins/featherlight.yaml',
+                'modified' => 1523448260
+            ],
+            'plugins/mediaembed' => [
+                'file' => 'user/config/plugins/mediaembed.yaml',
+                'modified' => 1523437688
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
@@ -23,25 +31,25 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1523289089
+                'modified' => 1523873092
             ]
         ],
         'system/config' => [
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1523260862
+                'modified' => 1523625921
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1523260862
+                'modified' => 1523625921
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1523260862
+                'modified' => 1523625921
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1523260862
+                'modified' => 1523625921
             ]
         ],
         'user/plugins' => [
@@ -67,15 +75,19 @@ return [
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1523261453
+                'modified' => 1523868692
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
-                'modified' => 1523261466
+                'modified' => 1523868688
             ],
             'plugins/markdown-notices' => [
                 'file' => 'user/plugins/markdown-notices/markdown-notices.yaml',
                 'modified' => 1523261463
+            ],
+            'plugins/mediaembed' => [
+                'file' => 'user/plugins/mediaembed/mediaembed.yaml',
+                'modified' => 1523437665
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/problems.yaml',
@@ -178,10 +190,10 @@ return [
             'featherlight' => [
                 'enabled' => true,
                 'active' => true,
-                'gallery' => false,
+                'gallery' => true,
                 'requirejs' => false,
-                'openSpeed' => 250,
-                'closeSpeed' => 250,
+                'openSpeed' => '250',
+                'closeSpeed' => '250',
                 'closeOnClick' => 'background',
                 'closeOnEsc' => true,
                 'root' => 'body',
@@ -212,6 +224,7 @@ return [
                 'route' => NULL,
                 'redirect_to_login' => true,
                 'redirect_after_login' => NULL,
+                'redirect_after_logout' => '/',
                 'route_activate' => '/activate_user',
                 'route_forgot' => '/forgot_password',
                 'route_reset' => '/reset_password',
@@ -267,6 +280,179 @@ return [
                     1 => 'red',
                     2 => 'blue',
                     3 => 'green'
+                ]
+            ],
+            'mediaembed' => [
+                'enabled' => true,
+                'link' => false,
+                'built_in_css' => true,
+                'built_in_js' => true,
+                'media' => [
+                    'width' => 640,
+                    'height' => 390,
+                    'adjust' => true,
+                    'preview' => true,
+                    'responsive' => true,
+                    'protocol' => 'http://'
+                ],
+                'services' => [
+                    'SoundCloud' => [
+                        'enabled' => true,
+                        'type' => 'rich',
+                        'example' => 'https://soundcloud.com/semiseria/verruckert-ausschnitt',
+                        'url' => 'w.soundcloud.com/player/?url=http://api.soundcloud.com/tracks/{:id}',
+                        'canonical' => 'http://soundcloud.com/{:id}',
+                        'endpoint' => 'http://soundcloud.com/oembed?url={:canonical}&format=json',
+                        'schemes' => [
+                            0 => 'soundcloud.com/*',
+                            1 => 'soundcloud.com/*/*',
+                            2 => 'soundcloud.com/*/sets/*',
+                            3 => 'soundcloud.com/groups/*',
+                            4 => 'snd.sc/*'
+                        ],
+                        'params' => [
+                            'auto_play' => false,
+                            'buying' => true,
+                            'download' => true,
+                            'hide_related' => false,
+                            'liking' => true,
+                            'sharing' => true,
+                            'show_artwork' => true,
+                            'show_comments' => true,
+                            'show_playcount' => true,
+                            'show_user' => true,
+                            'visual' => false
+                        ]
+                    ],
+                    'Spotify' => [
+                        'enabled' => true,
+                        'type' => 'rich',
+                        'canonical' => 'http://open.spotify.com/track/{:id}',
+                        'endpoint' => 'https://embed.spotify.com/oembed/?url={:canonical}&format=json',
+                        'schemes' => [
+                            0 => 'open.spotify.com/track/*',
+                            1 => 'spoti.fi/*'
+                        ]
+                    ],
+                    'Flickr' => [
+                        'enabled' => true,
+                        'type' => 'photo',
+                        'canonical' => 'http://www.flickr.com/photos/{:id}',
+                        'endpoint' => 'http://flickr.com/services/oembed?url={:canonical}&format=json',
+                        'schemes' => [
+                            0 => 'flickr.com/photos/*',
+                            1 => 'flic.kr/*'
+                        ]
+                    ],
+                    'Imgur' => [
+                        'enabled' => true,
+                        'type' => 'rich',
+                        'canonical' => 'http://imgur.com/gallery/{:id}',
+                        'endpoint' => 'http://api.imgur.com/oembed?url={:canonical}&format=json',
+                        'schemes' => [
+                            0 => 'imgur.com/gallery/*',
+                            1 => 'imgur.com/a/*',
+                            2 => 'imgur.com/*'
+                        ]
+                    ],
+                    'Instagram' => [
+                        'enabled' => true,
+                        'type' => 'rich',
+                        'canonical' => 'http://instagram.com/p/{:id}',
+                        'endpoint' => 'http://api.instagram.com/oembed?url={:canonical}&format=json',
+                        'schemes' => [
+                            0 => 'instagr.am/p/*',
+                            1 => 'instagram.com/p/*'
+                        ]
+                    ],
+                    'Dailymotion' => [
+                        'enabled' => true,
+                        'type' => 'video',
+                        'url' => 'www.dailymotion.com/embed/video/{:id}',
+                        'canonical' => 'http://dailymotion.com/video/{:id}',
+                        'endpoint' => 'http://www.dailymotion.com/services/oembed?url={:canonical}&format=json',
+                        'schemes' => [
+                            0 => 'dailymotion.com/video/*',
+                            1 => 'dailymotion.com/*/video/*',
+                            2 => 'dai\\.ly/*'
+                        ],
+                        'params' => [
+                            'quality' => 1080
+                        ]
+                    ],
+                    'YouTube' => [
+                        'enabled' => true,
+                        'type' => 'video',
+                        'url' => 'www.youtube.com/embed/{:id}',
+                        'canonical' => 'http://www.youtube.com/watch?v={:id}',
+                        'endpoint' => 'http://www.youtube.com/oembed?url={:canonical}&format=json',
+                        'schemes' => [
+                            0 => 'youtube.com/watch?*v=*',
+                            1 => 'youtube.com/embed/*',
+                            2 => 'youtube.com/v/*',
+                            3 => 'youtube.com/?*v=*',
+                            4 => 'youtu.be/*'
+                        ],
+                        'params' => [
+                            'autoplay' => 0,
+                            'modestbranding' => 1,
+                            'theme' => 'light'
+                        ]
+                    ],
+                    'Vimeo' => [
+                        'enabled' => true,
+                        'type' => 'video',
+                        'url' => 'player.vimeo.com/video/{:id}',
+                        'canonical' => 'https://vimeo.com/{:id}',
+                        'endpoint' => 'http://vimeo.com/api/oembed.json?url={:canonical}',
+                        'schemes' => [
+                            0 => 'vimeo.com/*',
+                            1 => 'vimeo.com/channels/*/*',
+                            2 => 'vimeo.com/groups/*/videos/*'
+                        ],
+                        'params' => [
+                            'autoplay' => 0
+                        ]
+                    ],
+                    'Github' => [
+                        'enabled' => true,
+                        'type' => 'rich',
+                        'canonical' => 'https://gist.github.com/{:id}',
+                        'endpoint' => 'https://gist.github.com/{:id}.json',
+                        'schemes' => [
+                            0 => 'gist.github.com/*',
+                            1 => 'gist.github.com/*/*',
+                            2 => 'gist.github.com/*?*'
+                        ]
+                    ],
+                    'Slides' => [
+                        'enabled' => true,
+                        'type' => 'rich',
+                        'canonical' => 'http://slides.com/{:id}',
+                        'endpoint' => 'http://slides.com/{:id}',
+                        'schemes' => [
+                            0 => 'slides.com/*',
+                            1 => 'slid.es/*'
+                        ],
+                        'params' => [
+                            'style' => 'light',
+                            'width' => 1920,
+                            'height' => 1400
+                        ]
+                    ],
+                    'Twitter' => [
+                        'enabled' => true,
+                        'type' => 'rich',
+                        'canonical' => 'https://twitter.com/{:id}',
+                        'endpoint' => 'https://api.twitter.com/1/statuses/oembed.json?url={:canonical}',
+                        'schemes' => [
+                            0 => 'twitter.com/*',
+                            1 => 'twitter.com/*/*'
+                        ]
+                    ],
+                    'GitHub' => [
+                        'enabled' => true
+                    ]
                 ]
             ],
             'problems' => [

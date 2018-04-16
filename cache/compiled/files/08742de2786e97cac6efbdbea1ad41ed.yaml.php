@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/dev/Boulot/Mathieu Roy/PulX/pulx/user/plugins/login/blueprints.yaml',
-    'modified' => 1523261465,
+    'modified' => 1523868688,
     'data' => [
         'name' => 'Login',
-        'version' => '2.6.1',
+        'version' => '2.6.3',
         'description' => 'Enables user authentication and login screen.',
         'icon' => 'sign-in',
         'author' => [
@@ -82,6 +82,12 @@ return [
                                     'label' => 'PLUGIN_LOGIN.REDIRECT_AFTER_LOGIN',
                                     'help' => 'PLUGIN_LOGIN.REDIRECT_AFTER_LOGIN_HELP',
                                     'placeholder' => '/my-page'
+                                ],
+                                'redirect_after_logout' => [
+                                    'type' => 'text',
+                                    'label' => 'PLUGIN_LOGIN.REDIRECT_AFTER_LOGOUT',
+                                    'help' => 'PLUGIN_LOGIN.REDIRECT_AFTER_LOGOUT_HELP',
+                                    'placeholder' => '/'
                                 ],
                                 'route_forgot' => [
                                     'type' => 'text',

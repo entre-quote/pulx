@@ -1,121 +1,121 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledLanguages',
-    'timestamp' => 1523289096,
-    'checksum' => '5951ed630f1d2468010dc31d97c96e8a',
+    'timestamp' => 1523873095,
+    'checksum' => 'be09b508bfb0d5e6f26d70b690a533f5',
     'files' => [
         'system/languages' => [
             'ar' => [
                 'file' => 'system/languages/ar.yaml',
-                'modified' => 1523260862
+                'modified' => 1523625921
             ],
             'ca' => [
                 'file' => 'system/languages/ca.yaml',
-                'modified' => 1523260862
+                'modified' => 1523625921
             ],
             'cs' => [
                 'file' => 'system/languages/cs.yaml',
-                'modified' => 1523260862
+                'modified' => 1523625921
             ],
             'da' => [
                 'file' => 'system/languages/da.yaml',
-                'modified' => 1523260862
+                'modified' => 1523625921
             ],
             'de' => [
                 'file' => 'system/languages/de.yaml',
-                'modified' => 1523260862
+                'modified' => 1523625921
             ],
             'el' => [
                 'file' => 'system/languages/el.yaml',
-                'modified' => 1523260862
+                'modified' => 1523625921
             ],
             'en' => [
                 'file' => 'system/languages/en.yaml',
-                'modified' => 1523260862
+                'modified' => 1523625921
             ],
             'es' => [
                 'file' => 'system/languages/es.yaml',
-                'modified' => 1523260862
+                'modified' => 1523625921
             ],
             'fi' => [
                 'file' => 'system/languages/fi.yaml',
-                'modified' => 1523260862
+                'modified' => 1523625921
             ],
             'fr' => [
                 'file' => 'system/languages/fr.yaml',
-                'modified' => 1523260862
+                'modified' => 1523625921
             ],
             'hr' => [
                 'file' => 'system/languages/hr.yaml',
-                'modified' => 1523260862
+                'modified' => 1523625921
             ],
             'hu' => [
                 'file' => 'system/languages/hu.yaml',
-                'modified' => 1523260862
+                'modified' => 1523625921
             ],
             'it' => [
                 'file' => 'system/languages/it.yaml',
-                'modified' => 1523260862
+                'modified' => 1523625921
             ],
             'ja' => [
                 'file' => 'system/languages/ja.yaml',
-                'modified' => 1523260862
+                'modified' => 1523625921
             ],
             'lt' => [
                 'file' => 'system/languages/lt.yaml',
-                'modified' => 1523260862
+                'modified' => 1523625921
             ],
             'nb' => [
                 'file' => 'system/languages/nb.yaml',
-                'modified' => 1523260862
+                'modified' => 1523625921
             ],
             'nl' => [
                 'file' => 'system/languages/nl.yaml',
-                'modified' => 1523260862
+                'modified' => 1523625921
             ],
             'no' => [
                 'file' => 'system/languages/no.yaml',
-                'modified' => 1523260862
+                'modified' => 1523625921
             ],
             'pl' => [
                 'file' => 'system/languages/pl.yaml',
-                'modified' => 1523260862
+                'modified' => 1523625921
             ],
             'pt' => [
                 'file' => 'system/languages/pt.yaml',
-                'modified' => 1523260862
+                'modified' => 1523625921
             ],
             'ro' => [
                 'file' => 'system/languages/ro.yaml',
-                'modified' => 1523260862
+                'modified' => 1523625921
             ],
             'ru' => [
                 'file' => 'system/languages/ru.yaml',
-                'modified' => 1523260862
+                'modified' => 1523625921
             ],
             'sk' => [
                 'file' => 'system/languages/sk.yaml',
-                'modified' => 1523260862
+                'modified' => 1523625921
             ],
             'sv' => [
                 'file' => 'system/languages/sv.yaml',
-                'modified' => 1523260862
+                'modified' => 1523625921
             ],
             'th' => [
                 'file' => 'system/languages/th.yaml',
-                'modified' => 1523260862
+                'modified' => 1523625921
             ],
             'tr' => [
                 'file' => 'system/languages/tr.yaml',
-                'modified' => 1523260862
+                'modified' => 1523625921
             ],
             'uk' => [
                 'file' => 'system/languages/uk.yaml',
-                'modified' => 1523260862
+                'modified' => 1523625921
             ],
             'vi' => [
                 'file' => 'system/languages/vi.yaml',
-                'modified' => 1523260862
+                'modified' => 1523625921
             ]
         ],
         'user/plugins' => [
@@ -129,7 +129,7 @@ return [
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/languages.yaml',
-                'modified' => 1523261453
+                'modified' => 1523868692
             ]
         ],
         'user/plugins/admin/languages' => [
@@ -293,31 +293,31 @@ return [
         'user/plugins/login/languages' => [
             'de' => [
                 'file' => 'user/plugins/login/languages/de.yaml',
-                'modified' => 1523261466
+                'modified' => 1523868688
             ],
             'en' => [
                 'file' => 'user/plugins/login/languages/en.yaml',
-                'modified' => 1523261466
+                'modified' => 1523868688
             ],
             'fr' => [
                 'file' => 'user/plugins/login/languages/fr.yaml',
-                'modified' => 1523261466
+                'modified' => 1523868688
             ],
             'hr' => [
                 'file' => 'user/plugins/login/languages/hr.yaml',
-                'modified' => 1523261466
+                'modified' => 1523868688
             ],
             'hu' => [
                 'file' => 'user/plugins/login/languages/hu.yaml',
-                'modified' => 1523261466
+                'modified' => 1523868688
             ],
             'ro' => [
                 'file' => 'user/plugins/login/languages/ro.yaml',
-                'modified' => 1523261466
+                'modified' => 1523868688
             ],
             'ru' => [
                 'file' => 'user/plugins/login/languages/ru.yaml',
-                'modified' => 1523261466
+                'modified' => 1523868688
             ]
         ]
     ],
@@ -1207,7 +1207,7 @@ Pfad: `%2$s`
                 'USER_NEEDS_EMAIL_FIELD' => 'The user needs an email field',
                 'EMAIL_SENDING_FAILURE' => 'An error occurred while sending the email',
                 'ACTIVATION_EMAIL_SUBJECT' => 'Activate your account on %s',
-                'ACTIVATION_EMAIL_BODY' => '<h1>%Account Activation</h1><p>Hi %1$s, </p><p>Your account has been successfully created on <b>%3$s</b>, but you cannot login until it is activated.</p><p><br/><a href="%2$s" class="btn-primary">Activate Your Account Now</a><br/><br/></p><p>Alternatively, copy the following URL into your browser\'s address bar:</p><p class="word-break"><a href="%2$s">%2$s</a></p><p><br/>Kind regards,<br/><br/>%4$s</p>',
+                'ACTIVATION_EMAIL_BODY' => '<h1>Account Activation</h1><p>Hi %1$s, </p><p>Your account has been successfully created on <b>%3$s</b>, but you cannot login until it is activated.</p><p><br/><a href="%2$s" class="btn-primary">Activate Your Account Now</a><br/><br/></p><p>Alternatively, copy the following URL into your browser\'s address bar:</p><p class="word-break"><a href="%2$s">%2$s</a></p><p><br/>Kind regards,<br/><br/>%4$s</p>',
                 'ACTIVATION_NOTICE_MSG' => 'Hi %s, your account is created, please check your email to fully activate it',
                 'WELCOME_EMAIL_SUBJECT' => 'Welcome to %s',
                 'WELCOME_EMAIL_BODY' => '<h1>Account Created</h1><p>Hi %1$s, </p><p>Your account has been successfully created on <b>%3$s</b>.</p><p><br/><a href="%2$s" class="btn-primary">Login Now</a><br/><br/></p><p>Alternatively, copy the following URL into your browser\'s address bar:</p><p class="word-break"><a href="%2$s">%2$s</a></p><p><br/>Kind regards,<br/><br/>%4$s</p>',
@@ -1241,6 +1241,8 @@ Pfad: `%2$s`
                 'REGISTRATION_FIELD_KEY' => 'Field name',
                 'REDIRECT_AFTER_LOGIN' => 'Redirect after login',
                 'REDIRECT_AFTER_LOGIN_HELP' => 'Custom route to redirect after login',
+                'REDIRECT_AFTER_LOGOUT' => 'Redirect after logout',
+                'REDIRECT_AFTER_LOGOUT_HELP' => 'Custom route to redirect after logout',
                 'REDIRECT_AFTER_REGISTRATION' => 'Redirect after registration',
                 'REDIRECT_AFTER_REGISTRATION_HELP' => 'Custom route to redirect after the registration',
                 'OPTIONS' => 'Options',
@@ -22625,7 +22627,7 @@ Path: `%2$s`
                 6 => 'søndag'
             ]
         ],
-        'checksum' => '5951ed630f1d2468010dc31d97c96e8a',
-        'timestamp' => 1523289096
+        'checksum' => 'be09b508bfb0d5e6f26d70b690a533f5',
+        'timestamp' => 1523873095
     ]
 ];

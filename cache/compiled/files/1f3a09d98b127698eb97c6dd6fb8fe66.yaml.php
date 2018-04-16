@@ -2,13 +2,14 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/dev/Boulot/Mathieu Roy/PulX/pulx/user/plugins/login/login.yaml',
-    'modified' => 1523261466,
+    'modified' => 1523868688,
     'data' => [
         'enabled' => true,
         'built_in_css' => true,
         'route' => NULL,
         'redirect_to_login' => true,
         'redirect_after_login' => NULL,
+        'redirect_after_logout' => '/',
         'route_activate' => '/activate_user',
         'route_forgot' => '/forgot_password',
         'route_reset' => '/reset_password',
