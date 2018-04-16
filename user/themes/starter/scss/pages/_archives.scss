@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+.archives {
+
+}
+
+.archives-item {
+    text-align: center;
+    background-color: $red;
+
+    a {
+        color: #fff;
+
+        & > div {
+            position: relative;
+            display: flex;
+        }
+
+        &:hover {
+            p {
+                opacity: 1;
+            }
+        }
+    }
+
+    p {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        height: 100%;
+        background-color: rgba($red,.8);
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+        font-weight: 400;
+        line-height: 3.6rem;
+        text-transform: uppercase;
+    }
+}

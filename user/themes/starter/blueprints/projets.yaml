@@ -16,21 +16,21 @@ form:
           fields:
 
             header.subTitle:
-              ordering@: 1
+              ordering@: 2
               type: text
               label: Titre détaillé
               validate:
                 type: text
 
             header.transmission:
-              ordering@: 2
+              ordering@: 3
               type: textarea
               label: Infos transmission
               validate:
                 type: text
 
             header.creation:
-              ordering@: 3
+              ordering@: 4
               type: textarea
               label: Infos création
               validate:

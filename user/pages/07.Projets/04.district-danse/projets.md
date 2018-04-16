@@ -3,10 +3,25 @@ title: 'District Danse'
 subTitle: "Une performance «\_évènementielle\_» pour 3 quartiers / 3 groupes amateurs / 3 chorégraphes et une ville."
 transmission: 'District Danse a pour objectif de partager l’expérience d’un processus de création professionnel, de transmettre, selon le chorégraphe, des envies, un thème, une couleur artistique mais aussi une discipline, des exigences, des méthodes ludiques ou oniriques, tout en prenant en compte et en respectant la singularité de chacun des participants habitants-amateurs-danseurs (ou pas).'
 creation: 'District Danse défend qu’avec ces habitants-amateurs-danseurs (ou pas) sont travaillées des créations de spectacles à visée “professionnelles” dans leurs exigences artistiques et leur démarche singulières.  <br>District Danse est doté d’une équipe de 3 chorégraphes, de 3 assistant danseurs ou comédiens, de 3 compositeurs et d’un créateur lumière pour mener, accompagner et encadrer la création des 3 spectacles avec la troupe de chaque quartier.'
+media_order: projet.jpg
 taxonomy:
+    Transmission:
+        - oui
+    Création:
+        - oui
+    Performance:
+        - oui
     'Projet en avant':
         - oui
 ---
+
+Une performance « évènementielle »   
+pour 3 quartiers /   
+3 groupes amateurs /   
+3 chorégraphes   
+et une ville.
+
+===
 
 Ouvert à tous, District Danse est un projet chorégraphique imaginé par Elsa Decaudin, mené en collaboration entre des acteurs locaux (associations de quartiers, maison pour Tous, partenaires culturels de la ville de Montpellier, …) et des équipes artistiques professionnelles.
 

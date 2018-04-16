@@ -542,6 +542,7 @@ aside a {
 /* --- Components --- */
 /* --- Nav --- */
 nav a {
+  padding: 5px;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none; }
@@ -553,7 +554,7 @@ nav a {
   font-size: 2rem; }
   .main-nav a {
     margin-bottom: 1rem;
-    margin-left: 3rem; }
+    margin-left: 2.1rem; }
     .main-nav a:hover, .main-nav a.selected {
       color: #fff;
       background-color: #e44444; }
@@ -711,5 +712,34 @@ div[data-featherlight-gallery] .gallery-content + .gallery-content {
   color: #e44444; }
 .archi a.selected {
   color: #e44444; }
+
+.archives-item {
+  text-align: center;
+  background-color: #e44444; }
+  .archives-item a {
+    color: #fff; }
+    .archives-item a > div {
+      position: relative;
+      display: flex; }
+    .archives-item a:hover p {
+      opacity: 1; }
+  .archives-item p {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100%;
+    background-color: rgba(228, 68, 68, 0.8);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out; }
+  .archives-item h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3.6rem;
+    text-transform: uppercase; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,23 @@
+{% embed 'partials/base.html.twig' %}
+
+{% set collection = page.collection() %}
+
+{% block content %}
+	<section class="archives grid-4-small-2 has-gutter">
+		{% for child in collection %}
+		<article class="archives-item">
+			<a href="#">
+				<div>
+					{{child.media.images|first}}
+					{{child.summary}}
+				</div>
+
+				<h3>{{ child.title }}</h3>
+			</a>
+		</article>
+
+		{% endfor %}
+	</section>
+{% endblock %}
+
+{% endembed %}

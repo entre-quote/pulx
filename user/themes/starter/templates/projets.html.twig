@@ -10,11 +10,14 @@
 
 <div class="project-wrapper grid has-gutter-xl">
 	<section class="three-quarters project-content">
+
+		{% set content = page.content|slice(page.summary|length) %}
+
 		{% if page.children.count() > 0 %}
-		{{ content }}
+			{{ content }}
 		{% else %}
 		<h2>{{page.header.subTitle}}</h2>
-		{{ content }}
+			{{ content }}
 		{% endif %}
 
 	</section>
