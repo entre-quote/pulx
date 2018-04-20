@@ -18,7 +18,7 @@ Elsa Decaudin est très attentive à rendre sensible et important les corps inte
 
 ![](archi-1.jpg)
 
-## performance 
+## Création 
 
 Elsa Decaudin développe différents projets de création de performance, spectacle, vidéo au sein de “sa” salle de danse qui sont ensuite présentés dans l’école et diffusés ailleurs…
 
@@ -34,13 +34,13 @@ Elsa Decaudin propose de participer de différentes manières à des cycles d’
 
 [En savoir +](/){.read-more}
 
-## ARTISTES EXTéRIEURS
+## Invitation à des ARTISTES EXTéRIEURS
 
 Cette résidence se doit d’inviter des artistes extérieurs. Ils viennent de champ autre que chorégraphique et sont conviés a développer, chercher et montrer leur travaux au sein de l’école.
 
 [En savoir +](/){.read-more}
 
-## projet architecture, danse et design
+## projet architecture, danse & design
 Elsa Decaudin participe au développement du projet ADD Architecture Danse & Design.  
 A travers l’architecture, le design, les arts visuels et de la scène, particulièrement la danse, le projet  ADD a pour objectif  d’échanger et partager la question des processus, des concepts et des outils de création en relation avec les espaces architecturaux, patrimoniaux et muséaux.  
 Il sera le sujet d’un colloque en octobre 2018 à l’ENSAM.  

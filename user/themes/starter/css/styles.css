@@ -508,24 +508,32 @@ header {
 
 .logo img {
   width: 13.5rem; }
+@media (max-width: 940px) {
+  .logo {
+    padding-bottom: 3rem;
+    width: 100%;
+    text-align: center; } }
 
 .top-bar {
   display: flex;
   align-items: flex-end;
   margin-bottom: 3rem; }
+  @media (max-width: 940px) {
+    .top-bar {
+      flex-wrap: wrap; } }
 
 footer {
+  display: flex;
+  justify-content: center;
   margin-top: 2.5rem;
+  margin-bottom: 2rem;
   padding: 1rem 1.4rem 1rem 8px;
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  background-color: #d9d9d9;
-  border-top: 1px dashed #4d4d4d; }
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-transform: uppercase; }
   footer a {
-    color: #4d4d4d;
     text-decoration: none; }
     footer a:hover {
-      color: #e44444;
       text-decoration: underline; }
 
 aside > div {
@@ -544,8 +552,7 @@ aside a {
 nav a {
   padding: 5px;
   font-weight: 700;
-  text-transform: uppercase;
-  text-decoration: none; }
+  text-transform: uppercase; }
   nav a, nav a:hover {
     text-decoration: none; }
 
@@ -558,6 +565,13 @@ nav a {
     .main-nav a:hover, .main-nav a.selected {
       color: #fff;
       background-color: #e44444; }
+  @media (max-width: 940px) {
+    .main-nav {
+      flex-wrap: wrap; }
+      .main-nav a {
+        width: 50%;
+        margin-left: 0;
+        text-align: center; } }
 
 .projects-nav {
   display: flex;
