@@ -1,0 +1,32 @@
+{% embed 'partials/base.html.twig' %}
+
+{% block content %}
+
+<h1>{{ page.title }}</h1>
+
+<section class="content creation">
+	{{ content }}
+
+	{% if page.header.subTitle !="" %}
+	<div class="highlight">
+		<h2>Projet mis en avant</h2>
+		<h3><a href="{{page.header.link}}">{{page.header.subTitle}}</a></h3>
+		{{page.header.highlight|markdown}}
+		<a href="{{page.header.link}}" class="read-more">En savoir plus</a>
+	</div>
+	{% endif %}
+
+	<div class="project-list">
+		<h2>Liste des projets de {{page.title}}</h2>
+		<ul>
+			{% for project in page.collection %}
+			<li><a href="{{project.url}}">{{project.title}}</a></li>
+			{% endfor %}
+		</ul>
+	</div>
+
+</section>
+
+{% endblock %}
+
+{% endembed %}

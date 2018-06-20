@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.creation {}
+
+.highlight {
+    margin: 3rem 0;
+    padding: 1rem 0;
+    border-top: 1px solid $grey;
+    border-bottom: 1px solid $grey;
+
+    h2 {
+        margin-bottom: 2rem;
+    }
+    p {
+        margin-top: 0;
+    }
+}

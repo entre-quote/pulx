@@ -3,21 +3,35 @@
 {% set collection = page.collection() %}
 
 {% block content %}
-	<section class="archives grid-4-small-2 has-gutter">
-		{% for child in collection %}
-		<article class="archives-item">
-			<a href="#">
-				<div>
+
+<h1>{{page.title}}</h1>
+
+{% if page.content !="" %}
+<div class="content">
+	{{content}}
+</div>
+{% endif %}
+
+<section class="archives grid-4-small-2 has-gutter">
+	{% for child in collection %}
+	<article class="archives-item">
+		<a href="{{child.url}}">
+			<div>
+				<div class="archives-img">
 					{{child.media.images|first}}
-					{{child.summary}}
 				</div>
+				<div class="archives-txt">
+					{{child.summary(100)}}
+				</div>
+			</div>
 
-				<h3>{{ child.title }}</h3>
-			</a>
-		</article>
+			<h3>{{ child.title }}</h3>
+		</a>
+	</article>
 
-		{% endfor %}
-	</section>
+	{% endfor %}
+</section>
+
 {% endblock %}
 
 {% endembed %}

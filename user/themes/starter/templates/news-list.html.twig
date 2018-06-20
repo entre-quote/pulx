@@ -5,17 +5,20 @@
             {% set first_image = p.media.images|first %}
 
             <article class="news-item grid-2">
+                <h2><a href="{{p.header.link}}">{{ p.title }} | <span>{{ p.header.subTitle }}</span></a></h2>
                 <div class="news-img">
-                    <h2>{{ p.title }}</h2>
+<a href="{{p.header.link}}">
                     <img src="{{first_image.url}}" alt="">
+
+                    <span class="read-more">En savoir +</span>
+                </a>
                 </div>
 
                 <div class="news-content">
                     {{ p.summary }}
                 </div>
-
-                <a href="" class="read-more">En savoir +</a>
             </article>
+
         {% endfor %}
 
     {% endblock %}

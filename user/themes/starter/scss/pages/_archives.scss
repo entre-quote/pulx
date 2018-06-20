@@ -5,6 +5,8 @@
 }
 
 .archives-item {
+    margin-bottom: 2rem;
+    min-height: 23rem;
     text-align: center;
     background-color: $red;
 
@@ -17,13 +19,13 @@
         }
 
         &:hover {
-            p {
+            .archives-txt {
                 opacity: 1;
             }
         }
     }
 
-    p {
+    .archives-txt {
         position: absolute;
         top: 0;
         right: 0;
@@ -44,4 +46,13 @@
         line-height: 3.6rem;
         text-transform: uppercase;
     }
+}
+
+.archives-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    min-height: 23rem;
+    background-color: $grey;
 }

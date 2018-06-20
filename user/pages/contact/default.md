@@ -25,10 +25,3 @@ Licence 2 Producteur de spectacles : 2-1055970
 
 Présidente : Valentine Pignet  
 Secrétaire trésorière : Alexandra Frankewitz
-
- 
-Crédits
-
-Intégration : Erick Gardin  
-Design graphique : Mathieu Roy   
-Photos : Bastien Defives

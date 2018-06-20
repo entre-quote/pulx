@@ -9,12 +9,13 @@ taxonomies:
   - Performance
   - Actualités
   - 'Projet en avant'
+  - Archives
 metadata:
   description: 'Grav is an easy to use, yet powerful, open source flat-file CMS'
 summary:
   enabled: true
   format: short
-  size: 300
+  size: 3000
   delimiter: '==='
 blog:
   route: /blog

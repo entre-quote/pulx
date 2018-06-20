@@ -1,0 +1,37 @@
+title: Projets
+'@extends':
+    type: default
+    context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        content:
+          type: tab
+
+          fields:
+
+            header.subTitle:
+              ordering@: 2
+              type: text
+              label: Titre détaillé
+              validate:
+                type: text
+
+            header.transmission:
+              ordering@: 3
+              type: textarea
+              label: Infos transmission
+              validate:
+                type: text
+
+            header.creation:
+              ordering@: 4
+              type: textarea
+              label: Infos création
+              validate:
+                type: text

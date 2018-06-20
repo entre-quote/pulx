@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/dev/Boulot/Mathieu Roy/PulX/pulx/system/config/site.yaml',
-    'modified' => 1523625921,
+    'modified' => 1526570934,
     'data' => [
         'title' => 'Grav',
         'default_lang' => 'en',

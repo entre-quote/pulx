@@ -1,0 +1,44 @@
+title: Projets
+'@extends':
+    type: default
+    context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        content:
+          type: tab
+
+          fields:
+
+            header.subTitle:
+              ordering@: 2
+              type: text
+              label: Titre du projet mis en avant
+              validate:
+                type: text
+
+            header.link:
+              ordering@: 3
+              type: text
+              label: Adresse du projet mis en avant
+              validate:
+                type: text
+
+            header.highlight:
+              ordering@: 4
+              type: editor
+              label: Description du projet mis en avant
+              codemirror:
+                mode: gfm
+                indentUnit: 4
+                autofocus: true
+                indentWithTabs: false
+                lineNumbers: true
+                styleActiveLine: true
+                gutters: ['CodeMirror-lint-markers']
+                lint: true

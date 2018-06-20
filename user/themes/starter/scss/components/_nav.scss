@@ -22,6 +22,7 @@ nav {
     a {
         margin-bottom: 1rem;
         margin-left: 2.1rem;
+        transition: all 0.2s ease-in-out;
 
         &:hover,
         &.selected {
@@ -47,23 +48,30 @@ nav {
 
     a {
         font-size: 1.8rem;
+        text-align: center;
 
         &:after {
             content: '';
             display: block;
-            width: 100%;
+            width: 1px;
             height: 1px;
             background-color: transparent;
+            transition: all 0.2s ease-in-out;
         }
 
         &:not(:first-child) {
-            margin-left: 3rem;
+            padding-left: 1.5rem;
+            border-left: 1px solid $red;
+        }
+        &:not(:last-child) {
+            padding-right: 1.5rem;
         }
 
         &:hover,
         &.selected {
 
             &:after {
+                width: 100%;
                 background-color: $red;
             }
         }

@@ -29,7 +29,9 @@ Comment everything not useful for the current project
 @import "components/gallery";
 
 /* --- Pages --- */
+@import "pages/default";
 @import "pages/projets";
 @import "pages/archi";
 @import "pages/medias";
 @import "pages/archives";
+@import "pages/creation";

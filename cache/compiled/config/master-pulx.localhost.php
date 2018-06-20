@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1523873093,
-    'checksum' => 'bdf9c5419138d322a6d6f1d70a991bdb',
+    'timestamp' => 1529481943,
+    'checksum' => '6f9b2d93b9e80237287d4bad741dc12e',
     'files' => [
         'user/config' => [
             'media' => [
@@ -12,6 +12,10 @@ return [
             'plugins/featherlight' => [
                 'file' => 'user/config/plugins/featherlight.yaml',
                 'modified' => 1523448260
+            ],
+            'plugins/login' => [
+                'file' => 'user/config/plugins/login.yaml',
+                'modified' => 1529481943
             ],
             'plugins/mediaembed' => [
                 'file' => 'user/config/plugins/mediaembed.yaml',
@@ -23,7 +27,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1523262944
+                'modified' => 1526282707
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -31,31 +35,31 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1523873092
+                'modified' => 1529481748
             ]
         ],
         'system/config' => [
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1523625921
+                'modified' => 1526570934
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1523625921
+                'modified' => 1526570934
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1523625921
+                'modified' => 1526570934
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1523625921
+                'modified' => 1526570934
             ]
         ],
         'user/plugins' => [
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/admin.yaml',
-                'modified' => 1523261457
+                'modified' => 1529481704
             ],
             'plugins/devtools' => [
                 'file' => 'user/plugins/devtools/devtools.yaml',
@@ -75,11 +79,11 @@ return [
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1523868692
+                'modified' => 1529481709
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
-                'modified' => 1523868688
+                'modified' => 1529481712
             ],
             'plugins/markdown-notices' => [
                 'file' => 'user/plugins/markdown-notices/markdown-notices.yaml',
@@ -92,6 +96,14 @@ return [
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/problems.yaml',
                 'modified' => 1512528472
+            ],
+            'plugins/shortcode-core' => [
+                'file' => 'user/plugins/shortcode-core/shortcode-core.yaml',
+                'modified' => 1526301546
+            ],
+            'plugins/shortcode-owl-carousel' => [
+                'file' => 'user/plugins/shortcode-owl-carousel/shortcode-owl-carousel.yaml',
+                'modified' => 1526301551
             ]
         ]
     ],
@@ -249,9 +261,7 @@ return [
                         0 => 'username',
                         1 => 'password',
                         2 => 'email',
-                        3 => 'fullname',
-                        4 => 'title',
-                        5 => 'level'
+                        3 => 'level'
                     ],
                     'default_values' => [
                         'level' => 'Newbie'
@@ -268,7 +278,7 @@ return [
                         'login_after_registration' => false,
                         'send_activation_email' => false,
                         'send_notification_email' => false,
-                        'send_welcome_email' => false
+                        'send_welcome_email' => '0'
                     ]
                 ]
             ],
@@ -456,6 +466,21 @@ return [
                 ]
             ],
             'problems' => [
+                'enabled' => true,
+                'built_in_css' => true
+            ],
+            'shortcode-core' => [
+                'enabled' => true,
+                'active' => true,
+                'active_admin' => true,
+                'parser' => 'regex',
+                'custom_shortcodes' => NULL,
+                'fontawesome' => [
+                    'load' => true,
+                    'url' => '//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css'
+                ]
+            ],
+            'shortcode-owl-carousel' => [
                 'enabled' => true,
                 'built_in_css' => true
             ]
@@ -738,7 +763,8 @@ return [
                 1 => 'Création',
                 2 => 'Performance',
                 3 => 'Actualités',
-                4 => 'Projet en avant'
+                4 => 'Projet en avant',
+                5 => 'Archives'
             ],
             'metadata' => [
                 'description' => 'Grav is an easy to use, yet powerful, open source flat-file CMS'
@@ -746,7 +772,7 @@ return [
             'summary' => [
                 'enabled' => true,
                 'format' => 'short',
-                'size' => 300,
+                'size' => 3000,
                 'delimiter' => '==='
             ],
             'redirects' => NULL,
