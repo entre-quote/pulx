@@ -3,6 +3,13 @@ title: Enseignement
 body_classes: archi
 ---
 
+Elsa Decaudin propose de participer de différentes manières à des cycles d’enseignements :
+- en proposant des ateliers de sensibilisation/action corporel en lien avec l’espace et l’usage des lieux,
+- en proposant une courte séance faisant lien entre la thématique de l’enseignement et des artistes et oeuvres chorégraphiques
+- en proposant de participer à une visite orientée de l’agora de la danse (ICI-CCN et/ou Montpellier Danse) qui permet d’appréhender les lieux de création et de diffusion de la danse.
+- en proposant de suivre l’avancée des travaux des étudiants en tant que dramaturge.
+
+
 ### 2017
 **// WorkShop HLM avec l’enseignante Frédérique Villemur du 23 janvier au 3 février 2017**, en partenariat avec Montpellier Danse et ICI-CCN sur le prêt de studio et des échanges pédagogiques.  
 Atelier de préparation et composition chorégraphique  puis accompagnement de la création de leurs performances présentées le vendredi 3 février 2017 en extérieur et en studio selon la thématique suivi « In situ ».  

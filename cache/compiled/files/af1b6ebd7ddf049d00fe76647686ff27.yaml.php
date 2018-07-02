@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/dev/Boulot/Mathieu Roy/PulX/pulx/system/languages/nl.yaml',
-    'modified' => 1526570934,
+    'modified' => 1529583768,
     'data' => [
         'INFLECTOR_IRREGULAR' => [
             'person' => 'personen',

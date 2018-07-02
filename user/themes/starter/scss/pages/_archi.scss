@@ -1,8 +1,6 @@
 @charset "UTF-8";
 
 .archi {
-
-
     .read-more {
 
         &:not(:last-child) {
@@ -11,10 +9,6 @@
     }
 
     h2 {
-        color: $red;
-    }
-
-    a.selected {
         color: $red;
     }
 }

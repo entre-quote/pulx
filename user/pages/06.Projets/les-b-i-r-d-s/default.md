@@ -1,5 +1,6 @@
 ---
 title: 'Les B.I.R.D.S'
+media_order: 'bird  room.jpg'
 date: '02-10-2014 07:48'
 taxonomy:
     Archives:
@@ -8,7 +9,7 @@ taxonomy:
 
 B.I.R.D. (déf.) : Brigade d'Intervention Rapide Dansée.
 
----
+===
 
 B.I.R.D. (déf.) : Brigade d'Intervention Rapide Dansée.
 Le principe des Birds est simple :  

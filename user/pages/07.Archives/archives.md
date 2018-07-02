@@ -1,6 +1,7 @@
 ---
 title: Archives
-visible: false
+published: false
+routable: false
 content:
     items:
         '@taxonomy':

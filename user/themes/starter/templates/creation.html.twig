@@ -16,15 +16,6 @@
 	</div>
 	{% endif %}
 
-	<div class="project-list">
-		<h2>Liste des projets de {{page.title}}</h2>
-		<ul>
-			{% for project in page.collection %}
-			<li><a href="{{project.url}}">{{project.title}}</a></li>
-			{% endfor %}
-		</ul>
-	</div>
-
 </section>
 
 {% endblock %}

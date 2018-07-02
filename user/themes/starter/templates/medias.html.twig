@@ -56,6 +56,7 @@
 	<aside class="one-quarter">
 		<div>
 			<nav>
+				<a href="{{page.parent.url}}">Présentation</a>
 				{% for p in page.parent.children %}
 				{% set current_page = (p.active) ? 'selected' : '' %}
 				<a href="{{ p.url }}" class="{{ current_page }}">

@@ -17,29 +17,40 @@ nav {
 }
 .main-nav {
     display: flex;
-    font-size: 2rem;
+    align-items: flex-start;
+    font-size: 1.8rem;
 
     a {
         margin-bottom: 1rem;
         margin-left: 2.1rem;
-        transition: all 0.2s ease-in-out;
+        text-align: center;
+        transition: background-color 0.2s ease-in-out;
 
         &:hover,
         &.selected {
             color: #fff;
             background-color: $red;
         }
+
+        &:nth-child(3) {
+            padding-right: 2rem;
+            padding-left: 2.5rem;
+            background-image: url(../images/bg-transmission.svg);
+            background-position: 0 center;
+            background-repeat: no-repeat;
+
+            &:hover,
+            &.selected {
+                background-image: url(../images/bg-transmission-white.svg);
+            }
+        }
     }
 
     @media (max-width: $desktop-width) {
-        flex-wrap: wrap;
-
-        a {
-            width: 50%;
-            margin-left: 0;
-            text-align: center;
-        }
+        display: none;
     }
+
+
 }
 
 .projects-nav {
@@ -75,5 +86,68 @@ nav {
                 background-color: $red;
             }
         }
+    }
+
+    @media (max-width: $desktop-width) {
+        display: none;
+    }
+}
+
+
+.mobile-menu-opener {
+    font-size: 2rem;
+    color: $red;
+    background: none;
+    border: none;
+    display: none;
+}
+.mobile-nav {
+    position: absolute;
+    left: -100vw;
+
+    &.is-opened {
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+
+    .logo {
+        margin-bottom: 2rem;
+    }
+
+    a {
+        display: block;
+
+        &.selected {
+            color: #fff;
+            background-color: $red;
+        }
+    }
+
+    h2 {
+        margin-top: 3rem;
+    }
+
+    .main {
+        a:nth-child(3) {
+            padding-right: 2rem;
+            padding-left: 2.5rem;
+            background-image: url(../images/bg-transmission.svg);
+            background-position: center center;
+            background-repeat: no-repeat;
+
+            &.selected {
+                background-image: url(../images/bg-transmission-white.svg);
+            }
+        }
+    }
+
+    @media (max-width: $desktop-width) {
+        display: block;
+        background-color: #fff;
+        z-index: 4;
+        text-align: center;
     }
 }

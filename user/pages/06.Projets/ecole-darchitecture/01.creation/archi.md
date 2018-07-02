@@ -3,6 +3,9 @@ title: Création
 body_classes: archi
 ---
 
+Elsa Decaudin développe différents projets de création de performance, spectacle, vidéo au sein de “sa” salle de danse qui sont ensuite présentés dans l’école et diffusés ailleurs…
+
+
 ### en 2017  Créations chorégraphiques
 
 L’artiste a donné à l’ENSAM un certain nombre de créations généreusement ouvertes non seulement aux étudiants et aux enseignants mais aussi aux agents de l’administration et au grand public.

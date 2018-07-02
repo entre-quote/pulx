@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/dev/Boulot/Mathieu Roy/PulX/pulx/system/languages/da.yaml',
-    'modified' => 1526570934,
+    'modified' => 1529583768,
     'data' => [
         'FRONTMATTER_ERROR_PAGE' => '---
 Titel: %1$s

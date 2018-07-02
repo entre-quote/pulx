@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/dev/Boulot/Mathieu Roy/PulX/pulx/system/languages/nb.yaml',
-    'modified' => 1526570934,
+    'modified' => 1529583768,
     'data' => [
         'MONTHS_OF_THE_YEAR' => [
             0 => 'januar',

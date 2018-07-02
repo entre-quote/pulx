@@ -18,5 +18,9 @@ aside {
         &:hover {
             color: $red;
         }
+
+        &.selected {
+            color: $red;
+        }
     }
 }

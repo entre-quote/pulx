@@ -12,6 +12,9 @@ En effet, celle-ci est profondément nourrie de l'immersion de l’équipe dans 
 
 En 2016, 2017 et 2018, PulX est soutenue, aidée et accompagnée sur ses différents projets par L’ENSAM, la DRAC, la mairie de Montpellier, la métropole Montpellier Méditerranée, la CAF-34, la DDCS-34, le pôle muséal de la mairie de Perpignan, la DDCS-66, ICI-Centre chorégraphique national de Montpellier - direction Christian Rizzo, l’Institut français en Italie.
 
+<hr class=small>
+**// CAROUSEL OU PHOTO \\\** 
+<hr class=small>
 
 ## Elsa Decaudin – chorégraphe/performeuse
 

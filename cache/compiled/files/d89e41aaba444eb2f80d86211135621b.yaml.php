@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/dev/Boulot/Mathieu Roy/PulX/pulx/user/config/site.yaml',
-    'modified' => 1526282707,
+    'modified' => 1530533794,
     'data' => [
         'title' => 'PulX',
         'default_lang' => 'fr',
@@ -12,7 +12,7 @@ return [
         ],
         'taxonomies' => [
             0 => 'Transmission',
-            1 => 'Création',
+            1 => 'Spectacle',
             2 => 'Performance',
             3 => 'Actualités',
             4 => 'Projet en avant',

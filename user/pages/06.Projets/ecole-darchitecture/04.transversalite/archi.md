@@ -3,6 +3,12 @@ title: Transversalité
 body_classes: archi
 ---
 
+Elsa Decaudin participe au développement du projet ADD Architecture Danse & Design.  
+A travers l’architecture, le design, les arts visuels et de la scène, particulièrement la danse, le projet  ADD a pour objectif  d’échanger et partager la question des processus, des concepts et des outils de création en relation avec les espaces architecturaux, patrimoniaux et muséaux.  
+Il sera le sujet d’un colloque en octobre 2018 à l’ENSAM.  
+Ce projet est développé en lien avec la faculté de la Sapienza/architecture et design avec la collaboration de Federica Dal Falco, enseignante et artiste, avec ICI-CCN et le master Danse EXERCE, avec le soutien de l’Institut Français Italia, la mairie de Sète concernant le théâtre de la mer et les galeries d’art Barberini et Corsini de Rome.
+
+
 projet ARCHITECTURE DANSE & DESIGN
 
 alors en découpage  

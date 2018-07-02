@@ -2,7 +2,6 @@
 title: 'Danse au musée'
 subTitle: Perpignan
 link: 'http://pulx.org'
-media_order: video.jpg
 date: '17-02-2018 11:35'
 ---
 

@@ -10,12 +10,6 @@ header {
     img {
         width: 13.5rem;
     }
-
-    @media (max-width: $desktop-width) {
-        padding-bottom: 3rem;
-        width: 100%;
-        text-align: center;
-    }
 }
 
 .top-bar {
@@ -24,6 +18,6 @@ header {
     margin-bottom: 3rem;
 
     @media (max-width: $desktop-width) {
-        flex-wrap: wrap;
+    justify-content: space-between;
     }
 }

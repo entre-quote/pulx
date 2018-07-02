@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1529481943,
-    'checksum' => '6f9b2d93b9e80237287d4bad741dc12e',
+    'timestamp' => 1530539001,
+    'checksum' => '28818f16593df64c54e8a4eba01c6e54',
     'files' => [
         'user/config' => [
             'media' => [
@@ -27,7 +27,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1526282707
+                'modified' => 1530533794
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -35,25 +35,25 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1529481748
+                'modified' => 1530539001
             ]
         ],
         'system/config' => [
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1526570934
+                'modified' => 1529583768
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1526570934
+                'modified' => 1529583768
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1526570934
+                'modified' => 1529583768
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1526570934
+                'modified' => 1529583768
             ]
         ],
         'user/plugins' => [
@@ -760,7 +760,7 @@ return [
             ],
             'taxonomies' => [
                 0 => 'Transmission',
-                1 => 'Création',
+                1 => 'Spectacle',
                 2 => 'Performance',
                 3 => 'Actualités',
                 4 => 'Projet en avant',

@@ -507,11 +507,6 @@ header {
 
 .logo img {
   width: 13.5rem; }
-@media (max-width: 940px) {
-  .logo {
-    padding-bottom: 3rem;
-    width: 100%;
-    text-align: center; } }
 
 .top-bar {
   display: flex;
@@ -519,7 +514,7 @@ header {
   margin-bottom: 3rem; }
   @media (max-width: 940px) {
     .top-bar {
-      flex-wrap: wrap; } }
+      justify-content: space-between; } }
 
 footer {
   display: flex;
@@ -534,6 +529,9 @@ footer {
     text-decoration: none; }
     footer nav a:hover {
       text-decoration: underline; }
+  footer img {
+    width: 2.6rem;
+    height: auto; }
 
 aside > div {
   padding: 1rem 1rem 1.5rem;
@@ -544,6 +542,8 @@ aside a {
   aside a:not(:last-child) {
     margin-bottom: 1.5rem; }
   aside a:hover {
+    color: #e44444; }
+  aside a.selected {
     color: #e44444; }
 
 /* --- Components --- */
@@ -557,21 +557,27 @@ nav a {
 
 .main-nav {
   display: flex;
-  font-size: 2rem; }
+  align-items: flex-start;
+  font-size: 1.8rem; }
   .main-nav a {
     margin-bottom: 1rem;
     margin-left: 2.1rem;
-    transition: all 0.2s ease-in-out; }
+    text-align: center;
+    transition: background-color 0.2s ease-in-out; }
     .main-nav a:hover, .main-nav a.selected {
       color: #fff;
       background-color: #e44444; }
+    .main-nav a:nth-child(3) {
+      padding-right: 2rem;
+      padding-left: 2.5rem;
+      background-image: url(../images/bg-transmission.svg);
+      background-position: 0 center;
+      background-repeat: no-repeat; }
+      .main-nav a:nth-child(3):hover, .main-nav a:nth-child(3).selected {
+        background-image: url(../images/bg-transmission-white.svg); }
   @media (max-width: 940px) {
     .main-nav {
-      flex-wrap: wrap; }
-      .main-nav a {
-        width: 50%;
-        margin-left: 0;
-        text-align: center; } }
+      display: none; } }
 
 .projects-nav {
   display: flex;
@@ -594,9 +600,56 @@ nav a {
     .projects-nav a:hover:after, .projects-nav a.selected:after {
       width: 100%;
       background-color: #e44444; }
+  @media (max-width: 940px) {
+    .projects-nav {
+      display: none; } }
+
+.mobile-menu-opener {
+  font-size: 2rem;
+  color: #e44444;
+  background: none;
+  border: none;
+  display: none; }
+
+.mobile-nav {
+  position: absolute;
+  left: -100vw; }
+  .mobile-nav.is-opened {
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; }
+  .mobile-nav .logo {
+    margin-bottom: 2rem; }
+  .mobile-nav a {
+    display: block; }
+    .mobile-nav a.selected {
+      color: #fff;
+      background-color: #e44444; }
+  .mobile-nav h2 {
+    margin-top: 3rem; }
+  .mobile-nav .main a:nth-child(3) {
+    padding-right: 2rem;
+    padding-left: 2.5rem;
+    background-image: url(../images/bg-transmission.svg);
+    background-position: center center;
+    background-repeat: no-repeat; }
+    .mobile-nav .main a:nth-child(3).selected {
+      background-image: url(../images/bg-transmission-white.svg); }
+  @media (max-width: 940px) {
+    .mobile-nav {
+      display: block;
+      background-color: #fff;
+      z-index: 4;
+      text-align: center; } }
 
 img {
   max-width: 100%;
+  height: auto; }
+
+.logo-rs img {
+  width: 3.2rem;
   height: auto; }
 
 h1,
@@ -657,20 +710,15 @@ a {
   .news-item:nth-child(even) .news-img {
     order: 2; }
   .news-item:nth-child(even) .news-content {
-    order: 1;
-    padding-top: 5rem; }
+    order: 1; }
   .news-item:nth-child(even) .read-more {
     right: auto;
     left: 0; }
   .news-item:not(:last-child) {
     margin-bottom: 3rem; }
   .news-item h2 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin: 0;
+    margin: 0 0 2rem;
     padding: 7px 1rem;
-    width: calc(100% / 2 - 0.01px);
     font-size: 2.1rem;
     line-height: 1;
     color: #fff;
@@ -705,9 +753,12 @@ a {
     opacity: .5; }
 
 .news-content {
-  padding: 2rem; }
+  padding-bottom: 2rem;
+  padding-left: 2rem; }
   .news-content h3 {
     text-transform: uppercase; }
+  .news-content > div {
+    margin-right: 2rem; }
 
 blockquote {
   margin-bottom: 3rem;
@@ -718,6 +769,11 @@ blockquote {
 .content {
   padding: 1rem;
   background-color: #f2f2f2; }
+
+.owl-carousel .owl-item img {
+  width: auto !important;
+  max-width: 100%;
+  margin: 0 auto; }
 
 .project-wrapper {
   align-items: flex-start; }
@@ -763,7 +819,7 @@ div[data-featherlight-gallery] .gallery-content + .gallery-content {
         position: absolute;
         top: 0;
         right: 0;
-        bottom: 0;
+        bottom: 4px;
         left: 0;
         background-color: #e44444;
         opacity: 0; }
@@ -782,8 +838,6 @@ div[data-featherlight-gallery] .gallery-content + .gallery-content {
 .archi .read-more:not(:last-child) {
   margin-bottom: 3rem; }
 .archi h2 {
-  color: #e44444; }
-.archi a.selected {
   color: #e44444; }
 
 .archives-item {

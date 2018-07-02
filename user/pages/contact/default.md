@@ -1,5 +1,6 @@
 ---
 title: Contact
+media_order: 'facebook-flat-logo.svg,Instagram-logo-2016.svg,vimeo-icon-vector copie.svg'
 ---
 
 Nos coordonnées
@@ -25,3 +26,7 @@ Licence 2 Producteur de spectacles : 2-1055970
 
 Présidente : Valentine Pignet  
 Secrétaire trésorière : Alexandra Frankewitz
+
+[![](facebook-flat-logo.svg)](https://www.facebook.com/PULXCOLLECTIF/){.logo-rs}
+[![](Instagram-logo-2016.svg)](https://www.instagram.com/collectif.pulx){.logo-rs}
+[![](vimeo-icon-vector%20copie.svg)](https://vimeo.com/elsadecaudin){.logo-rs}

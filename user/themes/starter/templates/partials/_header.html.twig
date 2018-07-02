@@ -10,10 +10,26 @@
             {% include 'partials/_navigation.html.twig' %}
         </nav>
         {% endblock %}
+
+        <button type="button" name="button" class="mobile-menu-opener">Menu <span></span></button>
     </div>
 
     <nav class="projects-nav">
         {% include 'partials/_projects-nav.html.twig' %}
     </nav>
+
+    <nav class="mobile-nav">
+        <a class="logo" href="{{ base_url == '' ? '/' : base_url }}">
+            <img src="{{ url('theme://images/logo-pulx.svg') }}" alt="PulX">
+        </a>
+
+        <div class="main">
+            {% include 'partials/_navigation.html.twig' %}
+        </div>
+        
+        <h2>Projets :</h2>
+        {% include 'partials/_projects-nav.html.twig' %}
+    </nav>
+
 </header>
 {% endblock %}

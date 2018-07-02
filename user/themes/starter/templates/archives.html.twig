@@ -18,7 +18,7 @@
 		<a href="{{child.url}}">
 			<div>
 				<div class="archives-img">
-					{{child.media.images|first}}
+					{{child.media.images|first.cropZoom(230, 230)}}
 				</div>
 				<div class="archives-txt">
 					{{child.summary(100)}}

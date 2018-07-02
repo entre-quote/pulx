@@ -4,6 +4,8 @@ media_order: archi-2.jpg
 body_classes: archi
 ---
 
+Cette résidence se doit d’inviter des artistes extérieurs. Ils viennent de champ autre que chorégraphique et sont conviés a développer, chercher et montrer leur travaux au sein de l’école.
+
 ![](archi-2.jpg)
 
 ### 2016
