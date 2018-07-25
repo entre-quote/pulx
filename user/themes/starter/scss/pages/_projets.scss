@@ -91,3 +91,13 @@ div[data-featherlight-gallery] {
     margin-top: 0;
     display: block;
 }
+
+.owl-stage {
+    display: flex;
+}
+
+.owl-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

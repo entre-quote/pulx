@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.partenaires {
+    .logos {
+        display: flex;
+        flex-wrap: wrap;
+
+        p {
+            width: 25%;
+            padding-right: 5px;
+            padding-left: 5px;
+        }
+
+        img {
+            display: block;
+            max-height: 20rem;
+            margin: 0 auto;
+        }
+    }
+}

@@ -504,6 +504,9 @@ body {
 header {
   padding-top: 3rem;
   padding-bottom: 4rem; }
+  header > img {
+    display: block;
+    margin: 0 auto 3rem; }
 
 .logo img {
   width: 13.5rem; }
@@ -557,10 +560,9 @@ nav a {
 
 .main-nav {
   display: flex;
-  align-items: flex-start;
-  font-size: 1.8rem; }
+  align-items: center;
+  font-size: 1.7rem; }
   .main-nav a {
-    margin-bottom: 1rem;
     margin-left: 2.1rem;
     text-align: center;
     transition: background-color 0.2s ease-in-out; }
@@ -583,7 +585,7 @@ nav a {
   display: flex;
   justify-content: center; }
   .projects-nav a {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     text-align: center; }
     .projects-nav a:after {
       content: '';
@@ -736,7 +738,8 @@ a {
     z-index: 2; }
 
 .news-img {
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
   .news-img a, .news-img a:after {
     display: block;
     position: absolute;
@@ -753,12 +756,12 @@ a {
     opacity: .5; }
 
 .news-content {
-  padding-bottom: 2rem;
-  padding-left: 2rem; }
+  padding-bottom: 2rem; }
   .news-content h3 {
     text-transform: uppercase; }
   .news-content > div {
-    margin-right: 2rem; }
+    margin-right: 2rem;
+    margin-left: 2rem; }
 
 blockquote {
   margin-bottom: 3rem;
@@ -835,6 +838,14 @@ div[data-featherlight-gallery] .gallery-content + .gallery-content {
   margin-top: 0;
   display: block; }
 
+.owl-stage {
+  display: flex; }
+
+.owl-item {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
 .archi .read-more:not(:last-child) {
   margin-bottom: 3rem; }
 .archi h2 {
@@ -861,14 +872,16 @@ div[data-featherlight-gallery] .gallery-content + .gallery-content {
     align-items: center;
     justify-content: center;
     margin: 0;
+    padding: 5px;
     height: 100%;
     background-color: rgba(228, 68, 68, 0.8);
     opacity: 0;
     transition: opacity 0.3s ease-in-out; }
   .archives-item h3 {
+    padding: 0.8rem 0;
     font-size: 1.8rem;
     font-weight: 400;
-    line-height: 3.6rem;
+    line-height: 1.2;
     text-transform: uppercase; }
 
 .archives-img {
@@ -888,5 +901,20 @@ div[data-featherlight-gallery] .gallery-content + .gallery-content {
     margin-bottom: 2rem; }
   .highlight p {
     margin-top: 0; }
+
+.transmission em {
+  color: #e44444; }
+
+.partenaires .logos {
+  display: flex;
+  flex-wrap: wrap; }
+  .partenaires .logos p {
+    width: 25%;
+    padding-right: 5px;
+    padding-left: 5px; }
+  .partenaires .logos img {
+    display: block;
+    max-height: 20rem;
+    margin: 0 auto; }
 
 /*# sourceMappingURL=styles.css.map */

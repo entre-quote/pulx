@@ -3,6 +3,11 @@
 header {
     padding-top: 3rem;
     padding-bottom: 4rem;
+
+    & > img {
+        display: block;
+        margin: 0 auto 3rem;
+    }
 }
 
 .logo {
