@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/dev/Boulot/Mathieu Roy/PulX/pulx/system/languages/tr.yaml',
-    'modified' => 1529583768,
+    'modified' => 1533652403,
     'data' => [
         'NICETIME' => [
             'NO_DATE_PROVIDED' => 'Tarih yok',

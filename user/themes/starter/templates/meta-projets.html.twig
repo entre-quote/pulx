@@ -2,13 +2,13 @@
 
 {% block content %}
 
-<div class="grid has-gutter-xl">
+<div class="grid has-gutter-l">
 	<div class="three-quarters">
 		<h1>{{page.title}}</h1>
 	</div>
 </div>
 
-<div class="project-wrapper grid has-gutter-xl">
+<div class="project-wrapper grid has-gutter-l">
 	<section class="three-quarters project-content">
 
 		{% set content = page.content|slice(page.summary|length) %}
@@ -19,8 +19,6 @@
 			<h2>{{page.header.subTitle}}</h2>
 			{{ content }}
 		{% endif %}
-
-
 	</section>
 
 	<aside class="one-quarter">

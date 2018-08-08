@@ -1,31 +1,23 @@
 ---
-title: Transversalité
+title: 'Projet ADD : Architecture Danse & Design'
 body_classes: archi
 ---
 
-Elsa Decaudin participe au développement du projet ADD Architecture Danse & Design.  
-A travers l’architecture, le design, les arts visuels et de la scène, particulièrement la danse, le projet  ADD a pour objectif  d’échanger et partager la question des processus, des concepts et des outils de création en relation avec les espaces architecturaux, patrimoniaux et muséaux.  
-Il sera le sujet d’un colloque en octobre 2018 à l’ENSAM.  
-Ce projet est développé en lien avec la faculté de la Sapienza/architecture et design avec la collaboration de Federica Dal Falco, enseignante et artiste, avec ICI-CCN et le master Danse EXERCE, avec le soutien de l’Institut Français Italia, la mairie de Sète concernant le théâtre de la mer et les galeries d’art Barberini et Corsini de Rome.
+ADD (Architecture Danse Design) est un projet pédagogique et de recherche, créé dans le cadre d'accords interinstitutionnels et internationaux entre l'Ecole nationale supérieure d’architecture de Montpellier (ENSAM), l'Université La Sapienza de Rome (Département PDTA), ICI—Centre Chorégraphique National de Montpellier, les instituts de culture étrangère d'Italie (Institut Français, Accademia de Hongrie), d'importantes structures patrimoniales (musées romains, galeries nationales Barberini et Corsini, Théâtre de la Mer à Sète).   
+Le projet né du partenariat entre l’ENSAM et l’Université La Sapienza en 2016-2017, s’est élargi en 2018 de la collaboration avec ICI - Centre Chorégraphique National de Montpellier.
 
+Le projet est dédié à l'interdisciplinarité entre la médiation muséale, l'architecture et la danse, les œuvres et les ouvrages, permettant de valoriser le patrimoine culturel et de favoriser un renouvellement des publics. Il est ouvert à une expérimentation des savoirs sensibles par lesquels  le corps en mouvement et la danse invitent à d’autres pratiques de l’espace.
 
-projet ARCHITECTURE DANSE & DESIGN
+Il donne lieu à un colloque :
 
-alors en découpage  
-- texte de présentation  
-- le colloque les 29 et 30 octobre  
-- les workshop à Rome en 2016 et 2017 au palazzo barberini avec la faculté de la sapienza  
-- le workshop à Sète au théâtre de la mer avec ICI-CCN
+### Colloque Universitaire les 29 et 30 octobre 2018
 
-en détail :  
-1 - le texte officiel devrait bientôt être édité pour les besoins du colloque qu'on organise en octobre à l'ENSAM
-donc je ne vais pas te proposer un vieux texte.
+L’objet de ce colloque est de restituer et de mettre en perspective l’expérience ADD menée depuis 2017 entre ces institutions, prenant en compte les réalités institutionnelles et de nouveaux enjeux de recherche. Il en va ainsi d’une nouvelle approche sensible des œuvres du passé par les gestes, ou des performances situées en lien avec un référent architectural ou paysager.
 
-2 - pour le colloque : idem : le programme arrive
+En quoi le rapprochement entre les disciplines, architecture, danse et design, au sein des enseignements vient-il modifier et enrichir les lectures et expérimentations de l’espace ?
 
-3 et 4  - la présentation des workshop : il y aura des pdf/jpg et video + texte du contenu du workshop
+Comment des artistes associés à des institutions de formation de l’enseignement supérieur permettent d’interroger les méthodologies dans les matières enseignées et dans la recherche ?
 
-celui sur Sète se termine aujourd'hui et c'est pourquoi je dois filer
-j'ai tout sur le workshop à rome en 2017
-concernant celui de 2017 à Rome, on travaillera sur la thématique du portrait au palazzo barberini
+Au-delà d’un état des lieux, il s’agira d’ouvrir des pistes de réflexion, tant sur le versant pratique que théorique, sur les rapports entre patrimoine et danse, corps en mouvement et design, dans une approche croisée des disciplines.
 
+Programme en cours 

@@ -23,4 +23,14 @@ aside {
             color: $red;
         }
     }
+
+    @media (max-width: $desktop-width) {
+        width: 100% !important;
+        margin-left: 0 !important;
+
+        a:not(:last-child) {
+            margin-bottom: .0;
+
+        }
+    }
 }

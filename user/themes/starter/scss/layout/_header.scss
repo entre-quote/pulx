@@ -7,22 +7,28 @@ header {
     & > img {
         display: block;
         margin: 0 auto 3rem;
+
+        @media (max-width: $desktop-width) {
+            display: none;
+        }
     }
 }
 
 .logo {
 
     img {
-        width: 13.5rem;
+        width: 18rem;
     }
 }
 
 .top-bar {
     display: flex;
     align-items: flex-end;
+    justify-content: space-between;
     margin-bottom: 3rem;
 
     @media (max-width: $desktop-width) {
-    justify-content: space-between;
+        justify-content: space-between;
+        align-items: flex-start;
     }
 }

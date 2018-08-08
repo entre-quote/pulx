@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/dev/Boulot/Mathieu Roy/PulX/pulx/user/plugins/admin/languages/en.yaml',
-    'modified' => 1529481704,
+    'modified' => 1532272000,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_BETA_MSG' => 'This is a Beta release! Use this in production at your own risk...',
@@ -398,6 +398,10 @@ return [
             'DISPLAY_ERRORS_HELP' => 'Display full backtrace-style error page',
             'LOG_ERRORS' => 'Log errors',
             'LOG_ERRORS_HELP' => 'Log errors to /logs folder',
+            'LOG_HANDLER' => 'Log handler',
+            'LOG_HANDLER_HELP' => 'Where to output the logs',
+            'SYSLOG_FACILITY' => 'Syslog facility',
+            'SYSLOG_FACILITY_HELP' => 'Syslog facility for output',
             'DEBUGGER' => 'Debugger',
             'DEBUGGER_HELP' => 'Enable Grav debugger and following settings',
             'DEBUG_TWIG' => 'Debug Twig',
@@ -718,7 +722,9 @@ You have **2FA** enabled on this account. Please use your **2FA** app to enter t
             'ROUTE_CANONICAL' => 'Canonical Route',
             'ROUTE_ALIASES' => 'Route Aliases',
             'OPEN_NEW_TAB' => 'Open in new tab',
-            'PAGEMEDIA_RESIZER' => '> The following settings apply to images uploaded through the page media. Resize Width / Height will automatically resize down and proportionally an image if exceeds the limits set in the inputs. Resolution min and max values define the size ranges for uploaded images. Set the fields to 0 to prevent any manipulation.'
+            'PAGEMEDIA_RESIZER' => '> The following settings apply to images uploaded through the page media. Resize Width / Height will automatically resize down and proportionally an image if exceeds the limits set in the inputs. Resolution min and max values define the size ranges for uploaded images. Set the fields to 0 to prevent any manipulation.',
+            'SESSION_INITIALIZE' => 'Initialize Session',
+            'SESSION_INITIALIZE_HELP' => 'Makes Grav to start a session. This feature is needed to make any user interaction to work, such as login, forms etc. Admin plugin isn\'t affected by this setting.'
         ]
     ]
 ];

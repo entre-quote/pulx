@@ -11,7 +11,7 @@
         </nav>
         {% endblock %}
 
-        <button type="button" name="button" class="mobile-menu-opener">Menu <span></span></button>
+        <button type="button" class="mobile-menu-opener">Menu</button>
     </div>
 
     <img src="{{ url('theme://images/header-line.png') }}" alt="">
@@ -21,16 +21,19 @@
     </nav>
 
     <nav class="mobile-nav">
-        <a class="logo" href="{{ base_url == '' ? '/' : base_url }}">
-            <img src="{{ url('theme://images/logo-pulx.svg') }}" alt="PulX">
-        </a>
+        <div class="top">
+            <a class="logo" href="{{ base_url == '' ? '/' : base_url }}">
+                <img src="{{ url('theme://images/logo-pulx.svg') }}" alt="PulX">
+            </a>
+
+            <button class="mobile-menu-closer">Fermer</button>
+        </div>
 
         <div class="main">
             {% include 'partials/_navigation.html.twig' %}
         </div>
-        
-        <h2>Projets :</h2>
-        {% include 'partials/_projects-nav.html.twig' %}
+
+        <img src="{{ url('theme://images/header-line.png') }}" alt=""> {% include 'partials/_projects-nav.html.twig' %}
     </nav>
 
 </header>

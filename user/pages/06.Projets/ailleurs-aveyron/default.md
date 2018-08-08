@@ -1,12 +1,13 @@
 ---
 title: 'Ailleurs - Aveyron'
 media_order: 'PulX_Bird_Ailleurs_Aveyron-01.jpg,PulX_Bird_Ailleurs_Aveyron-10.jpg,PulX_Bird_Ailleurs_Aveyron-11.jpg,PulX_Bird_Ailleurs_Aveyron-16.jpg'
+date: '04-06-2010 14:26'
 taxonomy:
     Performance:
         - oui
 ---
 
-blabla 
+« Un lieu quelque part », ou la tournée des lieux improbables , mis en place par l'association Contrechamp, à Céor - Aveyron le 4 juin 2010. 
 
 ===
 

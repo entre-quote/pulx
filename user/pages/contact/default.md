@@ -1,22 +1,22 @@
 ---
 title: Contact
-media_order: 'facebook-flat-logo.svg,Instagram-logo-2016.svg,vimeo-icon-vector copie.svg'
+process:
+    markdown: true
+    twig: true
 ---
 
-Nos coordonnées
+## Nos coordonnées
 
-Pulx  
+PulX - Elsa Decaudin &  
 c/o Valentine Pignet  
 13 rue du Palais des Guilhem  
 34000 Montpellier
 
 Tél : 06 89 47 78 84
 
-Mail : [contact@pulx.net](mailto:contact@pulx.net)
+Mail : <a href="mailto:{{'contact@pulx.net'|safe_email}}">contact[at]pulx.net</a>
 
-
-Pilotage des projets / responsable interventions artistiques : Elsa Decaudin  
-L'association Pulx
+## L'association PulX
 
 Date de déclaration en préfecture : 2 mars 2004
 
@@ -26,7 +26,3 @@ Licence 2 Producteur de spectacles : 2-1055970
 
 Présidente : Valentine Pignet  
 Secrétaire trésorière : Alexandra Frankewitz
-
-[![](facebook-flat-logo.svg)](https://www.facebook.com/PULXCOLLECTIF/){.logo-rs}
-[![](Instagram-logo-2016.svg)](https://www.instagram.com/collectif.pulx){.logo-rs}
-[![](vimeo-icon-vector%20copie.svg)](https://vimeo.com/elsadecaudin){.logo-rs}

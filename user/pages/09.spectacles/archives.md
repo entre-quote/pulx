@@ -10,4 +10,4 @@ content:
         dir: desc
 ---
 
-Blabla spectacle
+Ensemble/représentation de ce qui se présente au regard, à l'attention, et qui est capable d'éveiller un sentiment. (Larousse)

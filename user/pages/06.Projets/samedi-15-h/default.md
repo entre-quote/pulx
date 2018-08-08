@@ -15,13 +15,13 @@ Sur une idée originale d' Elsa Decaudin, de Jean-Philippe Lambert et de David O
 
 ### Le projet actuel
 
-Le projet actuel est proposé et soutenu par le collectif Pulx. Il consiste à réaliser de nouvelles versions de [ Samedi 15 !] dans un autre contexte.   
+Le projet actuel est proposé et soutenu par le collectif PulX. Il consiste à réaliser de nouvelles versions de [ Samedi 15 !] dans un autre contexte.   
 Facilement réadaptable et conçu pour être détourné, chaque version du projet [Samedi 15 h !] est donc unique !
 
 
 ### L'idée
 
-Ce projet met en avant la « performance de proximité ». Nous proposons de rendre spectaculaires quelques actions du quotidien, dont les protagonistes principaux de ces performances seront les habitants d'une même rue. Avec [Samedi 15 heures], Pulx pose un cadre pour travailler sur le thème de l'attente. Le cadre consiste à délimiter une portion arbitraire d'une rue et de la transformer en un théâtre à ciel ouvert. A plusieurs reprises nous rencontrons les habitants du quartier pour leur présenter le projet et nous nous y installons en résidence. Point d'orgue du projet : Un samedi, de 15 heures à 22 heures, se succèdent ainsi les scénettes conçues et réalisées par les habitants de la rue. Et nous invitons l'ensemble des habitants de la commune à venir y assister.
+Ce projet met en avant la « performance de proximité ». Nous proposons de rendre spectaculaires quelques actions du quotidien, dont les protagonistes principaux de ces performances seront les habitants d'une même rue. Avec [Samedi 15 heures], PulX pose un cadre pour travailler sur le thème de l'attente. Le cadre consiste à délimiter une portion arbitraire d'une rue et de la transformer en un théâtre à ciel ouvert. A plusieurs reprises nous rencontrons les habitants du quartier pour leur présenter le projet et nous nous y installons en résidence. Point d'orgue du projet : Un samedi, de 15 heures à 22 heures, se succèdent ainsi les scénettes conçues et réalisées par les habitants de la rue. Et nous invitons l'ensemble des habitants de la commune à venir y assister.
 
 Le processus de création nous intéresse plus que le résultat produit. Nous nous posons en catalyseurs d'idées et nous donnons donc un minimum de directives, afin de recueillir les envies propres à chacun. Nous ne faisons que mettre nos compétences artistiques à disposition. Pendant un mois, nous organisons des actions afin de favoriser les rencontres, exciter les imaginations et préparer les réalisations de [Samedi 15 heures !].
 

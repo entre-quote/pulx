@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/dev/Boulot/Mathieu Roy/PulX/pulx/user/plugins/form/blueprints.yaml',
-    'modified' => 1529481709,
+    'modified' => 1532272006,
     'data' => [
         'name' => 'Form',
-        'version' => '2.15.0',
+        'version' => '2.15.1',
         'description' => 'Enables the forms handling',
         'icon' => 'check-square',
         'author' => [

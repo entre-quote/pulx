@@ -5,7 +5,7 @@
 
         init: function(){
             this.initBg();
-            this.initMobileMenu();
+            this.initMenu();
         },
 
         initBg: function() {
@@ -13,13 +13,8 @@
             $('html').css({'background-image': 'url(http://entre-quote.fr/pulx/user/themes/starter/images/bg/' + images[Math.floor(Math.random() * images.length)] + ')'});
         },
 
-        initMobileMenu: function() {
-
-            $('.mobile-menu-opener').click(function() {
-                alert("plop")
-                // e.preventDefault();
-                // $('.mobile-nav').toggleClass('is-opened');
-            });
+        initMenu: function() {
+            
         }
 
     };

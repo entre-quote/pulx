@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1530539001,
-    'checksum' => '28818f16593df64c54e8a4eba01c6e54',
+    'timestamp' => 1533652444,
+    'checksum' => 'a3e4d14dfaf0144a28eb1d90801a8907',
     'files' => [
         'user/config' => [
             'media' => [
@@ -35,31 +35,31 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1530539001
+                'modified' => 1532668856
             ]
         ],
         'system/config' => [
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1529583768
+                'modified' => 1533652402
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1529583768
+                'modified' => 1533652402
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1529583768
+                'modified' => 1533652402
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1529583768
+                'modified' => 1533652402
             ]
         ],
         'user/plugins' => [
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/admin.yaml',
-                'modified' => 1529481704
+                'modified' => 1532272000
             ],
             'plugins/devtools' => [
                 'file' => 'user/plugins/devtools/devtools.yaml',
@@ -73,17 +73,21 @@ return [
                 'file' => 'user/plugins/error/error.yaml',
                 'modified' => 1523261450
             ],
+            'plugins/external_links' => [
+                'file' => 'user/plugins/external_links/external_links.yaml',
+                'modified' => 1532435429
+            ],
             'plugins/featherlight' => [
                 'file' => 'user/plugins/featherlight/featherlight.yaml',
                 'modified' => 1523290338
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1529481709
+                'modified' => 1532272006
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
-                'modified' => 1529481712
+                'modified' => 1532271996
             ],
             'plugins/markdown-notices' => [
                 'file' => 'user/plugins/markdown-notices/markdown-notices.yaml',
@@ -104,6 +108,10 @@ return [
             'plugins/shortcode-owl-carousel' => [
                 'file' => 'user/plugins/shortcode-owl-carousel/shortcode-owl-carousel.yaml',
                 'modified' => 1526301551
+            ],
+            'plugins/vimeo' => [
+                'file' => 'user/plugins/vimeo/vimeo.yaml',
+                'modified' => 1532329081
             ]
         ]
     ],
@@ -198,6 +206,41 @@ return [
                 'routes' => [
                     404 => '/error'
                 ]
+            ],
+            'external_links' => [
+                'enabled' => true,
+                'built_in_css' => true,
+                'weight' => 0,
+                'exclude' => [
+                    'classes' => [
+                        0 => 'exclude'
+                    ],
+                    'domains' => NULL
+                ],
+                'links' => [
+                    'www' => false,
+                    'redirects' => false,
+                    'schemes' => [
+                        0 => 'http',
+                        1 => 'https',
+                        2 => 'ftp',
+                        3 => 'irc',
+                        4 => 'mailto',
+                        5 => 'news',
+                        6 => 'nntp',
+                        7 => 'rtsp',
+                        8 => 'sftp',
+                        9 => 'ssh',
+                        10 => 'tel',
+                        11 => 'telnet',
+                        12 => 'webcal'
+                    ]
+                ],
+                'process' => true,
+                'title' => false,
+                'no_follow' => true,
+                'target' => '_blank',
+                'mode' => 'active'
             ],
             'featherlight' => [
                 'enabled' => true,
@@ -483,6 +526,21 @@ return [
             'shortcode-owl-carousel' => [
                 'enabled' => true,
                 'built_in_css' => true
+            ],
+            'vimeo' => [
+                'enabled' => true,
+                'plugin_css' => true,
+                'editor_button' => true,
+                'player_parameters' => [
+                    'autopause' => true,
+                    'autoplay' => false,
+                    'byline' => true,
+                    'color' => '#00adef',
+                    'loop' => false,
+                    'player_id' => '',
+                    'portrait' => true,
+                    'title' => true
+                ]
             ]
         ],
         'media' => [

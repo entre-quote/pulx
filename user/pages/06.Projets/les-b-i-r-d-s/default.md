@@ -13,7 +13,7 @@ B.I.R.D. (déf.) : Brigade d'Intervention Rapide Dansée.
 
 B.I.R.D. (déf.) : Brigade d'Intervention Rapide Dansée.
 Le principe des Birds est simple :  
-- portée par la structure Pulx, permettre à une idée de se concrétiser et à une performance d'être produite et conçue en peu de temps.
+- portée par la structure PulX, permettre à une idée de se concrétiser et à une performance d'être produite et conçue en peu de temps.
 - réunir des artistes très différents associés au son, à la vidéo, à la photo, à la lumière, au théâtre, à la danse...
 - réaliser en peu de temps, de manière collective, une performance en accord avec le lieu où elle se produit.
 
@@ -48,9 +48,9 @@ pour le Hors-lits 7 à Sète le 30 mars 2014
 ### Murmure
 
 Habiter, hanter, occuper, vivre des espaces, des lieux, des corps, des mémoires. 3 sols, 3 danseurs, 3 rencontres. La B.I R.D. dansée s'invite dans l'église de la Chartreuse pour chercher, expérimenter, créer ces murmures qui feront la rencontre. Habiter c'est partager.  
-Pulx a présenté « Murmure » en l'église de la Chartreuse de Villeneuve-lez-Avignon le samedi 12 octobre 2013 à 18h sur le thème Habiter lors de la journée de la fête de l'architecture.
+PulX a présenté « Murmure » en l'église de la Chartreuse de Villeneuve-lez-Avignon le samedi 12 octobre 2013 à 18h sur le thème Habiter lors de la journée de la fête de l'architecture.
 
-Pulx a été pour cela en résidence du 8 au 12 octobre à la Chartreuse de Villeneuve-lez-Avignon.
+PulX a été pour cela en résidence du 8 au 12 octobre à la Chartreuse de Villeneuve-lez-Avignon.
 
 #### Distribution
 Conception et chorégraphie : Elsa Decaudin  

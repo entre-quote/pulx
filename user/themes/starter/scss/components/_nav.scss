@@ -19,13 +19,16 @@ nav {
 .main-nav {
     display: flex;
     align-items: center;
-    font-size: 1.7rem;
+    margin-bottom: 2.6rem;
+    font-size: 1.6rem;
 
     a {
-        // margin-bottom: 1rem;
-        margin-left: 2.1rem;
         text-align: center;
         transition: background-color 0.2s ease-in-out;
+
+        &:not(:first-child){
+            margin-left: 2.1rem;
+        }
 
         &:hover,
         &.selected {
@@ -94,24 +97,37 @@ nav {
     }
 }
 
-
 .mobile-menu-opener {
     font-size: 2rem;
     color: $red;
     background: none;
     border: none;
+    border-top: 2px solid $red;
+    border-bottom: 2px solid $red;
     display: none;
+
+    @media (max-width: $desktop-width) {
+        display: block;
+    }
 }
 .mobile-nav {
-    position: absolute;
+    position: fixed;
     left: -100vw;
+    top: 0;
+    width: 100%;
+    padding: 3rem 2rem;
 
-    &.is-opened {
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
+    .top {
+        display: flex;
+       justify-content: space-between;
+       align-items: flex-start;
+
+       button {
+           border-top: 2px solid $red;
+           border-bottom: 2px solid $red;
+           font-size: 2rem;
+           color: $red;
+       }
     }
 
     .logo {
@@ -120,6 +136,7 @@ nav {
 
     a {
         display: block;
+        font-size: 1.4rem;
 
         &.selected {
             color: #fff;
@@ -132,23 +149,44 @@ nav {
     }
 
     .main {
-        a:nth-child(3) {
+
+        a {
+            font-size: 1.6rem;
+
+            &:nth-child(3) {
             padding-right: 2rem;
             padding-left: 2.5rem;
             background-image: url(../images/bg-transmission.svg);
             background-position: center center;
             background-repeat: no-repeat;
 
-            &.selected {
-                background-image: url(../images/bg-transmission-white.svg);
+                &.selected {
+                    background-image: url(../images/bg-transmission-white.svg);
+                }
             }
         }
     }
 
+    & > img {
+        display: block;
+        min-height: 1px;
+        margin: 1.5rem 0 2rem;
+    }
+    
     @media (max-width: $desktop-width) {
         display: block;
         background-color: #fff;
         z-index: 4;
         text-align: center;
+    }
+}
+
+.menu-is-opened {
+
+    .mobile-nav {
+        overflow: scroll;
+        left: 0;
+        right: 0;
+        bottom: 0;
     }
 }
