@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/dev/Boulot/Mathieu Roy/PulX/pulx/user/plugins/admin/languages/cs.yaml',
-    'modified' => 1532272000,
+    'modified' => 1542300031,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_BETA_MSG' => 'Jedná se o beta verzi! V ostrém provozu používejte pouze na vlastní nebezpečí...',

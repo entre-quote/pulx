@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/dev/Boulot/Mathieu Roy/PulX/pulx/user/plugins/login/blueprints.yaml',
-    'modified' => 1532271996,
+    'modified' => 1542300116,
     'data' => [
         'name' => 'Login',
         'version' => '2.7.3',

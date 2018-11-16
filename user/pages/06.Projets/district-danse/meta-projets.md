@@ -3,8 +3,6 @@ title: 'District Danse'
 subTitle: "Une performance «\_évènementielle\_» pour 3 quartiers / 3 groupes amateurs / 3 chorégraphes et une ville."
 media_order: 'photo-presentation-©VincentBartoli.2.jpg,logo_web.png,DD_visuel2015.jpg,DD_visuel2017.jpg,Enquete_Distric_Danse.pdf,2015.jpg,2016.jpg,2017-printemps.jpg,2017.jpg,2018-printemps.jpg,DD_A3_Celleneuve.jpg,DD_A3_General.jpg,DD_A3_Lemasson.jpg,DD_A3_Pompignane.jpg,DD_A3_Saison3_220617_2.jpg,DD_A6_Saison3_spectacle_hiver_191117-1.jpg,DD_Saison2_A3_Spectacle_2017_OK_HD.jpg'
 taxonomy:
-    Transmission:
-        - oui
     'Projet en avant':
         - oui
 transmission: 'District Danse a pour objectif de partager l’expérience d’un processus de création professionnel, de transmettre, selon le chorégraphe, des envies, un thème, une couleur artistique mais aussi une discipline, des exigences, des méthodes ludiques ou oniriques, tout en prenant en compte et en respectant la singularité de chacun des participants habitants-amateurs-danseurs (ou pas).'

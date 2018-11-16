@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/dev/Boulot/Mathieu Roy/PulX/pulx/user/plugins/admin/blueprints.yaml',
-    'modified' => 1532272000,
+    'modified' => 1542300026,
     'data' => [
         'name' => 'Admin Panel',
-        'version' => '1.8.6',
+        'version' => '1.8.13',
         'description' => 'Adds an advanced administration panel to manage your site',
         'icon' => 'empire',
         'author' => [
@@ -21,7 +21,7 @@ return [
         'dependencies' => [
             0 => [
                 'name' => 'grav',
-                'version' => '>=1.4.5'
+                'version' => '>=1.5.3'
             ],
             1 => [
                 'name' => 'form',

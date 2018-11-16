@@ -1,0 +1,13 @@
+email: contact@pulx.net
+access:
+  admin:
+    super: 'true'
+    login: 'true'
+  site:
+    login: 'true'
+fullname: Elsa
+state: enabled
+hashed_password: $2y$10$eDF3rH/Wucag1t8iJ1zxCeVoYQf1JmQznLmfuahwAoi1gOsx1e6Bi
+language: fr
+twofa_enabled: false
+twofa_secret: GQ2L5JWY7CCA7RGWLKPVLJNVQKIKEFQD

@@ -1,6 +1,6 @@
 ---
 title: 'Impetueuse m.'
-media_order: 'Capture-d’écran-2017-12-03-à-15.42.57.jpg,impetueusem-corsini---1.jpg,P1010563.jpg,P1010577.jpg,visuel1IM-copie.jpg'
+media_order: 'Capture-d’écran-2017-12-03-à-15.42.57.jpg,impetueusem-corsini---1.jpg,P1010563.jpg,P1010577.jpg,visuel1IM-copie.jpg,affiche-impetueusem-site.jpg,3_DOSSIER_IMPETUEUSE_M_PULX_C.DECAUDIN_070918.pdf'
 date: '11-01-2018 10:35'
 taxonomy:
     Performance:
@@ -36,7 +36,13 @@ Palazzo Corsini - 11 janvier 2018 - Roma
 
 ### Court métrage {#court}
 
-Nous adaptons cinématographiquement la performance "impétueuse m." présentée en mai dernier à l'ENSAM.
+Le court-métrage impétueuse m. est en pleine construction !
+Il sera terminé le 15 janvier 2019 prochain. Nous travaillons à sa diffusion en festivals. Une projection en salle est prévu dés le printemps qui arrive.
 
-Nous tournons à la fin de l'été en Islande. Nous nous attaquons directement à la post-production dés qu'on rentre pour pouvoir présenter cette oeuvre collective au printemps 2019.  
-[Cliquez ici pour tout savoir et nous accompagner](https://www.leetchi.com/c/impetueuse-m)
+Ce film est produit par PulX en partenariat et coproduction avec l'Ecole Nationale Supérieure d'Architecture de Montpellier et le Fresnoy - Studio National des arts contemporains et avec de joyeux et enthousiastes donateurs.
+
+![](affiche-impetueusem-site.jpg)
+
+voir dossier de présentation [3_DOSSIER_IMPETUEUSE_M_PULX_C.DECAUDIN_070918.pdf](3_DOSSIER_IMPETUEUSE_M_PULX_C.DECAUDIN_070918.pdf)
+
+Affiche et Photo de Quentin Guichard

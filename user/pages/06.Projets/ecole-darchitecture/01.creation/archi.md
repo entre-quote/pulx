@@ -1,12 +1,27 @@
 ---
 title: Création
+media_order: 3_DOSSIER_IMPETUEUSE_M_PULX_C.DECAUDIN_070918.pdf
 body_classes: archi
 ---
 
 Elsa Decaudin développe différents projets de création de performance, spectacle, vidéo au sein de “sa” salle de danse qui sont ensuite présentés dans l’école et diffusés ailleurs…
 
+### en 2018
 
-### en 2017  Créations chorégraphiques
+**//Le 11 janvier à 17h au palazzo Corsini à Rome**, dans le cadre du projet ADD : 
+Présentation de la performance « **impétueuse m.[](/projets/tryptik/impetueuse-m)** »   
+Interprétée par Christelle Larroque, mise en scène et chorégraphie d’Elsa Decaudin, Musique de Bancal.
+
+Dans le cadre de la collaboration universitaire entre l’ENSAM et la Sapienza de Rome/Architecture et la mise en dynamique du projet ADD :
+**//Création d’une performance « [s’épandre, s’éprendre](/projets/sepandre-seprendre) »**  au Studio Dal Falco dans le cadre de OPENHOUSEROMA 2018 les 9 et 10 mai 2018.
+
+**//Les 23 et 24 mai 2018 : salle de danse de l’ENSAM**  
+Présentation publique de 2 des 3 performances constituant [**TRYPTIK**](/projets/tryptik). 
+
+// Création d'un court-métrage « impètueuse m. » , adaptation cinématographique de la performance tourné en Islande.
+voir dossier de présentation [3_DOSSIER_IMPETUEUSE_M_PULX_C.DECAUDIN_070918.pdf](3_DOSSIER_IMPETUEUSE_M_PULX_C.DECAUDIN_070918.pdf)
+
+### en 2017  
 
 L’artiste a donné à l’ENSAM un certain nombre de créations généreusement ouvertes non seulement aux étudiants et aux enseignants mais aussi aux agents de l’administration et au grand public.
 

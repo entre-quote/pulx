@@ -1,41 +1,41 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1533652444,
-    'checksum' => 'a3e4d14dfaf0144a28eb1d90801a8907',
+    'timestamp' => 1542363453,
+    'checksum' => '77a768a076e0476da4d0fa908c08a7e8',
     'files' => [
         'user/config' => [
             'media' => [
                 'file' => 'user/config/media.yaml',
-                'modified' => 1513262033
+                'modified' => 1542299983
             ],
             'plugins/featherlight' => [
                 'file' => 'user/config/plugins/featherlight.yaml',
-                'modified' => 1523448260
+                'modified' => 1542299984
             ],
             'plugins/login' => [
                 'file' => 'user/config/plugins/login.yaml',
-                'modified' => 1529481943
+                'modified' => 1542299983
             ],
             'plugins/mediaembed' => [
                 'file' => 'user/config/plugins/mediaembed.yaml',
-                'modified' => 1523437688
+                'modified' => 1542299983
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
-                'modified' => 1513262033
+                'modified' => 1542299983
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1530533794
+                'modified' => 1542299983
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
-                'modified' => 1513262033
+                'modified' => 1542299983
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1532668856
+                'modified' => 1542299983
             ]
         ],
         'system/config' => [
@@ -59,59 +59,59 @@ return [
         'user/plugins' => [
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/admin.yaml',
-                'modified' => 1532272000
+                'modified' => 1542300026
             ],
             'plugins/devtools' => [
                 'file' => 'user/plugins/devtools/devtools.yaml',
-                'modified' => 1523261448
+                'modified' => 1542300091
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
-                'modified' => 1512528472
+                'modified' => 1542300094
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
-                'modified' => 1523261450
+                'modified' => 1542300106
             ],
             'plugins/external_links' => [
                 'file' => 'user/plugins/external_links/external_links.yaml',
-                'modified' => 1532435429
+                'modified' => 1542300107
             ],
             'plugins/featherlight' => [
                 'file' => 'user/plugins/featherlight/featherlight.yaml',
-                'modified' => 1523290338
+                'modified' => 1542300108
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1532272006
+                'modified' => 1542300110
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
-                'modified' => 1532271996
+                'modified' => 1542300116
             ],
             'plugins/markdown-notices' => [
                 'file' => 'user/plugins/markdown-notices/markdown-notices.yaml',
-                'modified' => 1523261463
+                'modified' => 1542300134
             ],
             'plugins/mediaembed' => [
                 'file' => 'user/plugins/mediaembed/mediaembed.yaml',
-                'modified' => 1523437665
+                'modified' => 1542300135
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/problems.yaml',
-                'modified' => 1512528472
+                'modified' => 1542300143
             ],
             'plugins/shortcode-core' => [
                 'file' => 'user/plugins/shortcode-core/shortcode-core.yaml',
-                'modified' => 1526301546
+                'modified' => 1542300149
             ],
             'plugins/shortcode-owl-carousel' => [
                 'file' => 'user/plugins/shortcode-owl-carousel/shortcode-owl-carousel.yaml',
-                'modified' => 1526301551
+                'modified' => 1542300155
             ],
             'plugins/vimeo' => [
                 'file' => 'user/plugins/vimeo/vimeo.yaml',
-                'modified' => 1532329081
+                'modified' => 1542300157
             ]
         ]
     ],
@@ -516,7 +516,7 @@ return [
                 'enabled' => true,
                 'active' => true,
                 'active_admin' => true,
-                'parser' => 'regex',
+                'parser' => 'regular',
                 'custom_shortcodes' => NULL,
                 'fontawesome' => [
                     'load' => true,
@@ -825,7 +825,7 @@ return [
                 5 => 'Archives'
             ],
             'metadata' => [
-                'description' => 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+                'description' => 'PulX / Elsa Decaudin & … est une structure installée à Montpellier depuis 2004 qui a conçu et diffusé divers projets artistiques et culturels autour du mouvement.'
             ],
             'summary' => [
                 'enabled' => true,

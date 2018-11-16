@@ -1,5 +1,6 @@
 ---
 title: 'Projet ADD : Architecture Danse & Design'
+media_order: imagecolloque-siteprojet.jpg
 body_classes: archi
 ---
 
@@ -9,6 +10,8 @@ Le projet né du partenariat entre l’ENSAM et l’Université La Sapienza en 2
 Le projet est dédié à l'interdisciplinarité entre la médiation muséale, l'architecture et la danse, les œuvres et les ouvrages, permettant de valoriser le patrimoine culturel et de favoriser un renouvellement des publics. Il est ouvert à une expérimentation des savoirs sensibles par lesquels  le corps en mouvement et la danse invitent à d’autres pratiques de l’espace.
 
 Il donne lieu à un colloque :
+
+
 
 ### Colloque Universitaire les 29 et 30 octobre 2018
 
@@ -20,4 +23,8 @@ Comment des artistes associés à des institutions de formation de l’enseignem
 
 Au-delà d’un état des lieux, il s’agira d’ouvrir des pistes de réflexion, tant sur le versant pratique que théorique, sur les rapports entre patrimoine et danse, corps en mouvement et design, dans une approche croisée des disciplines.
 
-Programme en cours 
+voir[ le programme](http://www.montpellier.archi.fr/colloque-architecture-danse-design/) 
+
+![](imagecolloque-siteprojet.jpg)
+
+voir [flashmob](/projets/flashmob-du-29-octobre-2018-ensam)

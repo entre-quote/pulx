@@ -1,7 +1,7 @@
 ---
-title: 'Résidence d''artiste à l''ENSAM'
 subTitle: 'PulX / Elsa Decaudin en résidence à l’école nationale d’architecture de Montpellier'
-media_order: 'A-LECHO-Affiche.jpg,AFFICHE-TRYPTIK.jpg,affiche-anamorphose-corrigée.jpg,AFFICHE-VISITEURS-ABOUT-DANCING.jpg,AFFICHE-DECAUDIN-FEATURING.jpg,AFFICHE-E-DECAUDIN-EXTENSION.jpg,AFFICHE-in-utile.jpg,AFFICHE-NinniRomeo-2016-ENSAM.jpg,AFFICHE-soulevement-2016.jpg,AFFICHEdiversion1.jpg,FOLIES-ELSA-DECAUDIN.jpg,MATHIAS-POISSON-Affiche.jpg,Flyer_DANSONS_LA_HD-(2).jpg,ELSA-DECAUDIN-Affiche.jpg,District-danse-affiche.jpg,conference-performance-SOUFFLE-2016-visuel.jpg'
+title: 'Résidence d''artiste à l''ENSAM'
+media_order: 'A-LECHO-Affiche.jpg,AFFICHE-TRYPTIK.jpg,affiche-anamorphose-corrigée.jpg,AFFICHE-VISITEURS-ABOUT-DANCING.jpg,AFFICHE-DECAUDIN-FEATURING.jpg,AFFICHE-E-DECAUDIN-EXTENSION.jpg,AFFICHE-in-utile.jpg,AFFICHE-NinniRomeo-2016-ENSAM.jpg,AFFICHE-soulevement-2016.jpg,AFFICHEdiversion1.jpg,FOLIES-ELSA-DECAUDIN.jpg,MATHIAS-POISSON-Affiche.jpg,Flyer_DANSONS_LA_HD-(2).jpg,ELSA-DECAUDIN-Affiche.jpg,District-danse-affiche.jpg,conference-performance-SOUFFLE-2016-visuel.jpg,imagecolloque-siteprojet.jpg'
 taxonomy:
     'Projet en avant':
         - oui
@@ -16,6 +16,7 @@ Cette résidence se déploie sous 3 axes principaux, la création, la transmissi
 Elsa Decaudin est très attentive à rendre sensible et important les corps intentionnel, corps émotionnel et corps social dans son rapport aux espaces architecturaux, urbains et paysagers.
 
 [owl-carousel autoplay=true loop=true arrow=true slideBy=3 margin=10]
+![](imagecolloque-siteprojet.jpg?lightbox=1024)
 ![](AFFICHE-TRYPTIK.jpg?lightbox=1024)
 ![](A-LECHO-Affiche.jpg?lightbox=1024)
 ![](MATHIAS-POISSON-Affiche.jpg?lightbox=1024)

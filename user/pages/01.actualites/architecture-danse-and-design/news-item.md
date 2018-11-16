@@ -1,13 +1,15 @@
 ---
-title: 'Architecture Danse & Design'
-subTitle: 'COLLOQUE les 29 et 30 octobre 2018 à l''ENSAM et à ICI-CCN'
+subTitle: 'Résidence à l''Ecole Nationale d''Architecture de Montpellier'
 link: projets/ecole-darchitecture
+title: 'Architecture Danse & Design'
+media_order: photo-flashmob-L1-18-siteactu.jpg
 date: '29-10-2018 15:35'
 ---
 
-Suite à 2 ans d'expérimentations et de workshop avec l'ENSAM et la Faculté de la Sapienza à Rome, un colloque est organisé pour discuter de cette transversalité si enrichissante, si enthousiasmante.
+Résidence à l'Ecole Nationale d'Architecture de Montpellier
+Le colloque Architecture Danse design a bien eu lieu les 29 et 30 octobre dernier en collaboration avec ICI-CCN et la Sapienza. Ce fut riche en enseignements, de pratique et d'échange !
 
-[Site de l'ENSAM](http://www.montpellier.archi.fr/)  
-[Site de l'ICI-CNN](http://ici-ccn.com/)
+Elsa Decaudin continue son travail au sein de l'école. Elle a, entre autre, collaboré au worshop Danse et Architecture proposé à l'ensemble des 150 étudiants de première année, en collaboration avec l'agora de la Danse. Ce qui a donné lieu à un [flashmob](/projets/flashmob-du-29-octobre-2018-ensam) 
+_photo de Delphine Amulet_
 
-Programme en cours.
+

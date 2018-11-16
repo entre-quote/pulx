@@ -22,10 +22,9 @@ Montpellier Méditerranée Métropole
 CAF-34 
 
 ![](cget.jpg)   
-CEGET_34
-
-![](cget.jpg)  
-CEGET-66
+CEGET   
+• soutien de District Danse dans l'Herault  
+• soutien de Danse au Musée dans les Pyrénnées Orientales
 
 ![](ICI-CCN.jpg)  
 ICI-Centre chorégraphique national de Montpellier, coproducteur du projet District Danse, cycle 1

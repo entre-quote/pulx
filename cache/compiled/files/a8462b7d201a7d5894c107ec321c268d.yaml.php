@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/dev/Boulot/Mathieu Roy/PulX/pulx/user/plugins/admin/admin.yaml',
-    'modified' => 1532272000,
+    'modified' => 1542300026,
     'data' => [
         'enabled' => true,
         'route' => '/admin',

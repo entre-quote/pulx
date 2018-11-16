@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/dev/Boulot/Mathieu Roy/PulX/pulx/user/config/site.yaml',
-    'modified' => 1530533794,
+    'modified' => 1542299983,
     'data' => [
         'title' => 'PulX',
         'default_lang' => 'fr',
@@ -19,7 +19,7 @@ return [
             5 => 'Archives'
         ],
         'metadata' => [
-            'description' => 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+            'description' => 'PulX / Elsa Decaudin & … est une structure installée à Montpellier depuis 2004 qui a conçu et diffusé divers projets artistiques et culturels autour du mouvement.'
         ],
         'summary' => [
             'enabled' => true,

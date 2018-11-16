@@ -1,11 +1,16 @@
 ---
-title: 'COURT-METRAGE '
 subTitle: '"impétueuse m."'
 link: projets/tryptik/impetueuse-m
-media_order: Leetchi.jpg
+title: 'COURT-METRAGE '
+media_order: 'affiche-impetueusem-siteactu 09.41.07.jpg'
+date: '15-11-2018 10:00'
 ---
 
-Nous adaptons cinématographiquement la performance "impétueuse m." présentée en mai dernier à l'ENSAM.  
+Le court-métrage impétueuse m. est en pleine construction !
+Il sera terminé le 15 janvier 2019 prochain. Nous travaillons à sa diffusion en festivals. Une projection en salle est prévu dés le printemps qui arrive.
 
-Nous tournons à la fin de l'été en Islande. Nous nous attaquons directement à la post-production dés qu'on rentre pour pouvoir présenter cette oeuvre collective au printemps 2019.  
-[Cliquez ici pour tout savoir et nous accompagner](https://www.leetchi.com/c/impetueuse-m)
+Ce film est produit par PulX en partenariat et coproduction avec l'Ecole Nationale Supérieure d'Architecture de Montpellier et le Fresnoy - Studio National des arts contemporains et avec de joyeux et enthousiastes donateurs.
+
+Affiche et Photo de Quentin Guichard
+
+
